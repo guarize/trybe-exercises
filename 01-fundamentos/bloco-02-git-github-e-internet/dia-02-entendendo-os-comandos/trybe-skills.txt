@@ -9,3 +9,4 @@ O que eu vou aprender na Trybe:
 - React
 - NodeJS
 - Redux
+- SQL

@@ -7,4 +7,6 @@ O que eu vou aprender na Trybe:
 - CSS
 - JavaScript
 - React
+- NodeJS
+- Redux
 - SQL

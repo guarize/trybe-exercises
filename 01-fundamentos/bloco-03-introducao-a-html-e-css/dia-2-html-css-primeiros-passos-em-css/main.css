@@ -1,0 +1,44 @@
+h1 {
+    font-size: 65px;
+    font-family: sans-serif;
+    color: #F5A962;
+}
+
+body {
+    background-color: #DDDDDD;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul {
+    background-color:#3C8DAD;
+    line-height: 150%;
+    font-size: 20px;
+}
+
+.list-p-style {
+    color: black;
+}
+
+p {
+    font-weight: 600;
+    font-size: 2em;
+    font-style: oblique;
+    text-decoration-line: underline;
+}
+
+#list-laranja {
+    color: orange;
+}
+
+#list-verde {
+    color: rgb(0, 255, 0);
+}
+
+#list-vermelho {
+    color: red;
+}
+
+#list-amarelo {
+    color: yellow;
+}

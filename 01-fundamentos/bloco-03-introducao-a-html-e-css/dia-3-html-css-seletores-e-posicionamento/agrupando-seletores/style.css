@@ -1,0 +1,28 @@
+h1, p {
+    text-align: center;
+}
+
+ol {
+    margin-right: auto;
+    margin-left: 45%;
+    list-style: none
+}
+
+.sites {
+    padding-left: 0;
+    width: 100px;
+}
+
+.sites:hover {
+    background-color: blue;
+}
+
+.sites:active {
+    font-family: monospace;
+}
+
+ul {
+    margin-right: auto;
+    margin-left: 45%;
+    list-style: none
+}

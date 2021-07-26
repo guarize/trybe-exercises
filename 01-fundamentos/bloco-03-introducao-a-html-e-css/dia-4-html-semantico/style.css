@@ -1,4 +1,4 @@
-h1 {
+h1, h3, ul{
     text-align: center;
 }
 
@@ -19,8 +19,6 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
-    /**/
-    display: inline-block;
 }
 
 .third {
@@ -29,28 +27,14 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
-    /**/
-    display: inline-block;
 }
 
-/**/
 ul li {
     list-style-type: none;
 }
 
-h3 {
-    text-align: center;
-}
-
-/**/
 li {
     display: inline-block;
-}
-
-/**/
-.table {
-    display: table;
-    margin: 0 auto;
 }
 
 .podium {

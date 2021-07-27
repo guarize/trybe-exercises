@@ -54,25 +54,42 @@ nav ul li a:hover {
 .main-img {
     width: 600px;
     border-radius: 150px;
+    margin-left: 300px;
 }
 
 .container {
-    height: 80vh;
-    width: 90%;
+    height: 900px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
-    left: 17%;
-    margin-bottom: 30px;
+    border-bottom: 2px solid white;
 }
 
 .container-text {
     width: 600px;
-    margin-right: 400px;
-    padding: 30px 50px;
+    padding: 30px 40px;
+    text-align: center;
+    margin-right: 300px;
 }
 
+.about {
+    height: 500px;
+    border-bottom: 2px solid white;
+}
+
+#about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    vertical-align: top;
+}
+
+.fatos {
+    max-width: 300px;
+    text-align: center;
+}
 
 /* .footer {
     bottom: 0;

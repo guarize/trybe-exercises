@@ -58,12 +58,11 @@ nav ul li a:hover {
 }
 
 .container {
-    height: 900px;
+    height: 800px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 2px solid white;
 }
 
 .container-text {

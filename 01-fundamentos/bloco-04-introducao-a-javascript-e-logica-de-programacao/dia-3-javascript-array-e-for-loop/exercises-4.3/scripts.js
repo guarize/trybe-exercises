@@ -58,19 +58,20 @@ function inverseDescendingStars(num) {
 // Depois, faça uma pirâmide com n asteriscos de base:
 
 function pyramidStar(num) {
-let hiegth = num;
-let str = '';
+  let hiegth = num + 1;
+  let str = '';
 
-  for (let column = 1; column <= hiegth; column++) {
-    for (let row = 1; row <= (hiegth - column); row++) {
-      str = str.concat(" ");
+  for (let column = 1; column < hiegth; column += 1) {
+    for (let row = 1; row < hiegth; row += 1) {
+      if (column + row >= hiegth) {
+        str = str.concat('* ');
+      } else {
+        str = str.concat(' ');
+      }
     }
-    for (var i = 1; i <= column; i++) {
-      str = str.concat('* ');
-    }
-    str = str.concat("\n");
+    str = str.concat('\n')
   }
-  return str
+  return str;
 }
 
 // console.log(pyramidStar(5))

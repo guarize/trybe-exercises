@@ -15,7 +15,7 @@ function squareStars(num) {
   return str;
 }
 
-console.log(squareStars(5));
+// console.log(squareStars(5));
 
 // 2- Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base.
 
@@ -32,7 +32,7 @@ function descendingStars(num) {
   return str;
 }
 
-console.log(descendingStars(5));
+// console.log(descendingStars(5));
 
 // 3, Agora inverta o lado do triângulo. Por exemplo:
 
@@ -53,6 +53,24 @@ function inverseDescendingStars(num) {
   return str;
 }
 
-console.log(inverseDescendingStars(5))
+// console.log(inverseDescendingStars(5))
 
 // Depois, faça uma pirâmide com n asteriscos de base:
+
+function pyramidStar(num) {
+let hiegth = num;
+let str = '';
+
+  for (let column = 1; column <= hiegth; column++) {
+    for (let row = 1; row <= (hiegth - column); row++) {
+      str = str.concat(" ");
+    }
+    for (var i = 1; i <= column; i++) {
+      str = str.concat('* ');
+    }
+    str = str.concat("\n");
+  }
+  return str
+}
+
+// console.log(pyramidStar(5))

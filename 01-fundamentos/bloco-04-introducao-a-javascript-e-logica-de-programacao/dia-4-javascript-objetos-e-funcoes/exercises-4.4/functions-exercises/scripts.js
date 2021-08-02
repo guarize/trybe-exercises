@@ -10,7 +10,8 @@ function checkPalindrome(str) {
   }
   if (word === reverseStr) {
     return true;
-  } return false;
+  }
+  return false;
 }
 
 
@@ -47,7 +48,7 @@ console.log(minIndex(testArray2))
 let nameArray = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
 
 function largestName(arr) {
-  let names = arr; 
+  let names = arr;
   let largest;
 
   for (let i = 0; i < (names.length - 1); i += 1) {
@@ -62,6 +63,29 @@ console.log(largestName(nameArray))
 
 // 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
 
+let repeatArray = [2, 3, 2, 5, 8, 2, 3, 3, 3];
+
+function repeatsTheMost(arr) {
+  let array = arr.sort();
+  let repeatedNumber;
+  let repetitions = 0;
+  let maxRepetition = 0;
+
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i] === array[i + 1]) {
+      repetitions += 1;
+    } else {
+      repetitions = 0;
+    }
+    if (repetitions > maxRepetition) {
+      repeatedNumber = array[i];
+      maxRepetition = repetitions;
+    }
+  }
+  return repeatedNumber;
+}
+
+console.log(repeatsTheMost(repeatArray))
 
 // 6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
 
@@ -89,7 +113,8 @@ function checkWordEnd(word, ending) {
   }
   if (testWord === end) {
     return true;
-  } return false
+  }
+  return false
 
 }
 

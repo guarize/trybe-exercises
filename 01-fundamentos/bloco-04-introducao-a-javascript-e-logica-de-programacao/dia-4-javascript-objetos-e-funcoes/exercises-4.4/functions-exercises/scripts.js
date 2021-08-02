@@ -46,8 +46,6 @@ console.log(minIndex(testArray2))
 
 let nameArray = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
 
-// console.log(nameArray[1 + 1].length)
-
 function largestName(arr) {
   let names = arr; 
   let largest;
@@ -61,3 +59,23 @@ function largestName(arr) {
 }
 
 console.log(largestName(nameArray))
+
+// 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+
+
+// 6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
+
+function sumAll(num) {
+  let limit = num;
+  let sum = 0;
+
+  for (let i = 1; i <= limit; i += 1) {
+    sum += i;
+  }
+  return sum;
+}
+
+console.log(sumAll(100))
+
+// 7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word . Considere que a string ending sempre será menor que a string word.
+

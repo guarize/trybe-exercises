@@ -29,3 +29,16 @@ function maxIndex(arr) {
 
 console.log(maxIndex(testArray))
 
+// 3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+
+let testArray2 = [2, 4, 6, 7, 10, 0, -3];
+
+function minIndex(arr) {
+  let numbers = arr;
+  let smallNum = Math.min(...numbers);
+
+  return numbers.indexOf(smallNum);
+}
+
+console.log(minIndex(testArray2))
+

@@ -79,3 +79,18 @@ console.log(sumAll(100))
 
 // 7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word . Considere que a string ending sempre será menor que a string word.
 
+function checkWordEnd(word, ending) {
+  let full = word;
+  let end = ending;
+  let testWord = "";
+
+  for (let i = (word.length - end.length); i <= (word.length - 1); i += 1) {
+    testWord = testWord.concat(word[i]);
+  }
+  if (testWord === end) {
+    return true;
+  } return false
+
+}
+
+console.log(checkWordEnd('joaofernando', 'rnando'))

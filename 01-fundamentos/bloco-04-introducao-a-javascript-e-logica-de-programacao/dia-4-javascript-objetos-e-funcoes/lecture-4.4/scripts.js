@@ -29,3 +29,17 @@ console.log("A jogadora " + player.name + " " + player.lastName + " " + "foi ele
 // 5 - Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
 
 console.log("A jogadora possui " + player.medals.golden + " " + "medalhas de ouro e " + player.medals.silver + " " + "medalhas de prata");
+
+// For/in
+
+// 1 - Usando o objeto abaixo, utilize For/in e imprima no console a mensagem 'Olá xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
+
+let names = {
+  person1: 'João',
+  person2: 'Maria',
+  person3: 'Jorge' 
+};
+
+for (let person in names) {
+  console.log("Olá " + names[person]);
+}

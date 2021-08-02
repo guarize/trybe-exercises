@@ -15,3 +15,17 @@ function checkPalindrome(str) {
 
 
 console.log(checkPalindrome('arara'))
+
+// 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+
+let testArray = [2, 3, 6, 7, 10, 1];
+
+function maxIndex(arr) {
+  let numbers = arr;
+  let highestNum = Math.max(...numbers);
+
+  return numbers.indexOf(highestNum);
+}
+
+console.log(maxIndex(testArray))
+

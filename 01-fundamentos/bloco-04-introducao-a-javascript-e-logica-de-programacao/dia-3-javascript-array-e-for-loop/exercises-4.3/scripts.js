@@ -55,7 +55,7 @@ function inverseDescendingStars(num) {
 
 // console.log(inverseDescendingStars(5))
 
-// Depois, faça uma pirâmide com n asteriscos de base:
+// 4. Depois, faça uma pirâmide com n asteriscos de base:
 
 function pyramidStar(num) {
 let hiegth = num;
@@ -74,3 +74,16 @@ let str = '';
 }
 
 // console.log(pyramidStar(5))
+
+// 6. Faça um programa que diz se um número definido numa variável é primo ou não.
+
+function isPrime(num) {
+  let number = num;
+  
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0){
+      return false;
+    }
+    return true;
+  }
+}

@@ -3,7 +3,7 @@
 }
 
 #container {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   text-align: center;
 }
 
@@ -22,6 +22,7 @@
 .emergency-tasks div {
   height: 198px;
 }
+
 .emergency-tasks h3 {
   color: white;
   margin-top: 10px;

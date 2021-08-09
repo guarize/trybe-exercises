@@ -22,14 +22,14 @@
 
 ### Do as follows:
 
-- [ ] Retrieve the element that contains the page title and do something with it, like changing it to the name of your favorite movie.
-- [ ] Now retrieve the second paragraph and use your creativity to change it.
-- [ ] Por fim, recupere o subtítulo e altere-o também.
+- [x] Retrieve the element that contains the page title and do something with it, like changing it to the name of your favorite movie.
+- [x] Now retrieve the second paragraph and use your creativity to change it.
+- [x] Finally, retrieve the subtitle and change it too.
 
 ### Using the same template as in the previous exercise:
 
-- [ ] Add an equal class for both paragraphs.
-- [ ] Retrieve your paragraphs via JavaScript, using getElementsByClassName.
-- [ ] Change some of the style of the first one.
-- [ ] Retrieve the subtitle and change its color using the function getElementsByTagName.
+- [x] Add an equal class for both paragraphs.
+- [x] Retrieve your paragraphs via JavaScript, using `getElementsByClassName`.
+- [x] Change some of the style of the first one.
+- [x] Retrieve the subtitle and change its color using the function `getElementsByTagName`.
 

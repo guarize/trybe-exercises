@@ -33,7 +33,7 @@ function centerSquareColor() {
 
 function correctText() {
   document.querySelector("header .title").innerText = "Exercício 5.1 - JavaScript"
-}
+};
 
 //  5. Create a function that changes all text in the <p> tag to uppercase.
 

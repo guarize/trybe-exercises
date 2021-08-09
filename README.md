@@ -1,4 +1,4 @@
-# Trybe - Exercícios
+# Trybe - Exercises
 
 Contains all the activities __[I](https://www.linkedin.com/in/pedroguarize/)__ developed during my journey at [Trybe](https://www.betrybe.com/).
 

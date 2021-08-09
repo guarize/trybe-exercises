@@ -6,7 +6,7 @@ Contains all the activities __[I](https://www.linkedin.com/in/pedroguarize/)__ d
 
 ## Web Development Fundamentals :hourglass_flowing_sand:
 
-##### Block 1: [Unix, Bash and Shell Script]()
+##### Block 1: [Unix, Bash and Shell Script]() :heavy_check_mark:
 - [x] 1.3 - Web Development Fundamentals
 - [x] 1.3 - Introduction - Unix & Shell
 - [x] 1.3 - Unix & Bash - Part 1

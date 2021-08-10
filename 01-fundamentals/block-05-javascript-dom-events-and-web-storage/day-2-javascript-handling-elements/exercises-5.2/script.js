@@ -81,7 +81,7 @@ mainTag.removeChild(sectionTagLeft);
 
 // 4
 
-
+sectionTagRight.style.marginRight = 'auto';
 
 // 5
 

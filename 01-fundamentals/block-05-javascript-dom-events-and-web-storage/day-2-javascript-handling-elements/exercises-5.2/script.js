@@ -85,6 +85,6 @@ sectionTagRight.style.marginRight = 'auto';
 
 // 5
 
-
+sectionTagRight.parentElement.style.backgroundColor = 'green'
 
 // 6

@@ -34,3 +34,10 @@ mainTag.appendChild(sectionTagLeft);
 const sectionTagRight = document.createElement('section');
 sectionTagRight.className = 'right-content';
 mainTag.appendChild(sectionTagRight);
+
+// 7
+
+const imageSmall = document.createElement('img');
+imageSmall.src = 'https://picsum.photos/200'
+imageSmall.className = 'small-image';
+sectionTagLeft.appendChild(imageSmall);

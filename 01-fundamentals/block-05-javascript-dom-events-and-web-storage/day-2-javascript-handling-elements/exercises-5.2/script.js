@@ -16,3 +16,9 @@ document.body.appendChild(mainTag);
 const sectionTagCenter = document.createElement('section');
 sectionTagCenter.className = 'center-content';
 mainTag.appendChild(sectionTagCenter);
+
+// 4
+
+const pTag = document.createElement('p');
+pTag.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, quas. Quod nisi illo ab quas expedita, qui tempora accusamus culpa rem suscipit autem itaque, fugiat velit libero! Officia, veniam ipsam.';
+sectionTagCenter.appendChild(pTag)

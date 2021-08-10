@@ -77,7 +77,7 @@ h1Tag.className = 'title';
 
 // 3
 
-
+mainTag.removeChild(sectionTagLeft);
 
 // 4
 

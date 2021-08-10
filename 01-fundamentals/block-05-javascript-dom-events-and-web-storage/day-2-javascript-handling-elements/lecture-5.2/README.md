@@ -37,7 +37,7 @@
 
 <br>
 
-- [ ] Create a sibling for `elementoOndeVoceEsta`.
-- [ ] Create a child for `elementoOndeVoceEsta`.
-- [ ] Create a child for `primeiroFilhoDoFilho`.
-- [ ] From this created child, access `terceiroFilho`.
+- [x] Create a sibling for `elementoOndeVoceEsta`.
+- [x] Create a child for `elementoOndeVoceEsta`.
+- [x] Create a child for `primeiroFilhoDoFilho`.
+- [x] From this created child, access `terceiroFilho`.

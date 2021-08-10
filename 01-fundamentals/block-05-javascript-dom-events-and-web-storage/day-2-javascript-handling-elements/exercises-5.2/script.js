@@ -10,3 +10,9 @@ document.body.appendChild(h1Tag);
 const mainTag = document.createElement('main');
 mainTag.className = 'main-content';
 document.body.appendChild(mainTag);
+
+// 3
+
+const sectionTagCenter = document.createElement('section');
+sectionTagCenter.className = 'center-content';
+mainTag.appendChild(sectionTagCenter);

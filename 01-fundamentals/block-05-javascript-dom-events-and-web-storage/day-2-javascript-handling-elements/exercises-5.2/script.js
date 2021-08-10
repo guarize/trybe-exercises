@@ -41,3 +41,16 @@ const imageSmall = document.createElement('img');
 imageSmall.src = 'https://picsum.photos/200'
 imageSmall.className = 'small-image';
 sectionTagLeft.appendChild(imageSmall);
+
+// 8
+
+const unorderedList = document.createElement('ul');
+sectionTagRight.appendChild(unorderedList)
+
+let numberList = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+
+for (let i = 0; i < numberList.length; i += 1) {
+  let listItems = document.createElement('li');
+  listItems.innerText = numberList[i];
+  unorderedList.appendChild(listItems)
+};

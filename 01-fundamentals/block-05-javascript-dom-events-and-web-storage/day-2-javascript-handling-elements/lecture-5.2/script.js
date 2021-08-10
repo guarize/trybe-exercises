@@ -34,6 +34,7 @@ const thirdChild = elementWhereImAt.nextElementSibling;
 
 const thirdChild2 = parent.lastElementChild.previousElementSibling;
 
+// -------------------------------------------------
 // Part II
 
 // Create a sibling for `elementoOndeVoceEsta`.
@@ -59,3 +60,23 @@ firstSonsChild.appendChild(childFirstSonsChild)
 
 const thirdChild3 = childFirstSonsChild.parentElement.parentElement.nextElementSibling;
 console.log(thirdChild3)
+
+// -------------------------------------------------
+// Part III
+
+// Remove all child elements of `paiDoPai` except `pai`, `elementoOndeVoceEsta` and `primeiroFilhoDoFilho`.
+
+const nodesList = parent2.childNodes;
+
+for (let i = nodesList.length -1; i >= 0; i -= 1) {
+  const node = nodesList[i];
+
+  if (node.id !== 'elementoOndeVoceEsta') {
+    node.remove();
+  }
+  if (node.id === 'elementoOndeVoceEsta') {
+    const secondAndLastSonsChild = document.getElementById('segundoEUltimoFilhoDoFilho');
+    secondAndLastSonsChild.remove();
+  }
+}
+console.log(nodesList)

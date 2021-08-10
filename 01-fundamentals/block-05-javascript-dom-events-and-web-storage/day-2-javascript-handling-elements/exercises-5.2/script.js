@@ -88,3 +88,6 @@ sectionTagRight.style.marginRight = 'auto';
 sectionTagRight.parentElement.style.backgroundColor = 'green'
 
 // 6
+
+unorderedList.lastElementChild.previousElementSibling.remove();
+unorderedList.lastElementChild.remove();

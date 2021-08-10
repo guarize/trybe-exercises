@@ -60,6 +60,7 @@ for (let i = 0; i < numberList.length; i += 1) {
 for (let i = 0; i < 3; i += 1) {
   let h3Tag = document.createElement('h3');
   h3Tag.innerText = `${"Title"} ${i}`;
+  h3Tag.className = "description";
   mainTag.appendChild(h3Tag);
 };
 
@@ -72,7 +73,7 @@ h1Tag.className = 'title';
 
 // 2
 
-
+// Did it on exercise 9.
 
 // 3
 

@@ -62,3 +62,28 @@ for (let i = 0; i < 3; i += 1) {
   h3Tag.innerText = `${"Title"} ${i}`;
   mainTag.appendChild(h3Tag);
 };
+
+//------------------------------------------
+// Part 2.
+
+// 1
+
+h1Tag.className = 'title';
+
+// 2
+
+
+
+// 3
+
+
+
+// 4
+
+
+
+// 5
+
+
+
+// 6

@@ -46,4 +46,4 @@
 
 <br>
 
-- [ ] Remove all child elements of `paiDoPai` except `pai`, `elementoOndeVoceEsta` and `primeiroFilhoDoFilho`.
+- [x] Remove all child elements of `paiDoPai` except `pai`, `elementoOndeVoceEsta` and `primeiroFilhoDoFilho`.

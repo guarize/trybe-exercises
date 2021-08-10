@@ -35,7 +35,7 @@ Contains all the activities __[I](https://www.linkedin.com/in/pedroguarize/)__ d
 
 ##### Block 5: [JavaScript: DOM, Events, and Web Storage]()
 - [x] 5.1 - JavaScript - DOM and selectors
-- [ ] 5.2 - JavaScript - Handling elements
+- [x] 5.2 - JavaScript - Handling elements
 - [ ] 5.3 - JavaScript - Events
 - [ ] 5.4 - JavaScript - Web Storage
 - [ ] 5.5 - Fundamentals - JavaScript - Projects

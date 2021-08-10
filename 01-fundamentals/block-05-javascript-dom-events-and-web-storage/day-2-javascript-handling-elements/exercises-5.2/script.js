@@ -54,3 +54,11 @@ for (let i = 0; i < numberList.length; i += 1) {
   listItems.innerText = numberList[i];
   unorderedList.appendChild(listItems)
 };
+
+// 9
+
+for (let i = 0; i < 3; i += 1) {
+  let h3Tag = document.createElement('h3');
+  h3Tag.innerText = `${"Title"} ${i}`;
+  mainTag.appendChild(h3Tag);
+};

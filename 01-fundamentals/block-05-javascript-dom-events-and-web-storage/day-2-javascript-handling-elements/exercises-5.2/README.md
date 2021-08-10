@@ -20,9 +20,9 @@
 
 <br>
 
-- [ ] 10 - Add a `title` class to the created `h1` tag;
-- [ ] 11 - Add the `description` class to the 3 `h3` tags you created;
-- [ ] 12 - Remove the `section` created in step 5 (the one with the `left-content` class). Use the `.removeChild()` function;
-- [ ] 13 - Center the `section` created in step 6 (the one with the `right-content` class). Tip: To center it, simply set the section's `margin-right: auto` ;
-- [ ] 14 - Change the background color of the parent element of the section created in step 3 (the one with the `center-content` class) to green;
-- [ ] 15 - Remove the last two elements (nine and ten) from the list created in step 8.
+- [ ] 1 - Add a `title` class to the created `h1` tag;
+- [ ] 2 - Add the `description` class to the 3 `h3` tags you created;
+- [ ] 3 - Remove the `section` created in step 5 (the one with the `left-content` class). Use the `.removeChild()` function;
+- [ ] 4 - Center the `section` created in step 6 (the one with the `right-content` class). Tip: To center it, simply set the section's `margin-right: auto` ;
+- [ ] 5 - Change the background color of the parent element of the section created in step 3 (the one with the `center-content` class) to green;
+- [ ] 6 - Remove the last two elements (nine and ten) from the list created in step 8.

@@ -7,3 +7,6 @@ document.body.appendChild(h1Tag);
 
 // 2
 
+const mainTag = document.createElement('main');
+mainTag.className = 'main-content';
+document.body.appendChild(mainTag);

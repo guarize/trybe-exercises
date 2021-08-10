@@ -28,3 +28,9 @@ sectionTagCenter.appendChild(pTag)
 const sectionTagLeft = document.createElement('section');
 sectionTagLeft.className = 'left-content';
 mainTag.appendChild(sectionTagLeft);
+
+// 6
+
+const sectionTagRight = document.createElement('section');
+sectionTagRight.className = 'right-content';
+mainTag.appendChild(sectionTagRight);

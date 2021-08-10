@@ -30,3 +30,14 @@
 - [x] Now access the text `Atenção!` from `elementoOndeVoceEsta`.
 - [x] Now access the `terceiroFilho` from `elementoOndeVoceEsta` element.
 - [x] Now access the `terceiroFilho` from `pai`.
+
+<br>
+
+## Part II - Creating Elements
+
+<br>
+
+- [ ] Create a sibling for `elementoOndeVoceEsta`.
+- [ ] Create a child for `elementoOndeVoceEsta`.
+- [ ] Create a child for `primeiroFilhoDoFilho`.
+- [ ] From this created child, access `terceiroFilho`.

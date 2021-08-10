@@ -1,3 +1,5 @@
+// Part I
+
 // Access the element elementoOndeVoceEsta.
 
 const elementWhereImAt = document.getElementById('elementoOndeVoceEsta');
@@ -31,3 +33,6 @@ elementWhereImAt.nextElementSibling;
 // Now access the `terceiroFilho` from `pai`.
 
 parent.lastElementChild.previousElementSibling;
+
+// Part II
+

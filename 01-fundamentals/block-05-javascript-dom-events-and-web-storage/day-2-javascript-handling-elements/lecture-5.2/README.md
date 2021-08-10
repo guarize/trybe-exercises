@@ -41,3 +41,9 @@
 - [x] Create a child for `elementoOndeVoceEsta`.
 - [x] Create a child for `primeiroFilhoDoFilho`.
 - [x] From this created child, access `terceiroFilho`.
+
+## Part III - Removing Elements
+
+<br>
+
+- [ ] Remove all child elements of `paiDoPai` except `pai`, `elementoOndeVoceEsta` and `primeiroFilhoDoFilho`.

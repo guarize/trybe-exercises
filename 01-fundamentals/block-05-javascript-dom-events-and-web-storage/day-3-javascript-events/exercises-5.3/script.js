@@ -159,4 +159,4 @@ days.addEventListener("click", function(event) {
   } else {
     event.target.style.color = getColor;
   }
-})
+});

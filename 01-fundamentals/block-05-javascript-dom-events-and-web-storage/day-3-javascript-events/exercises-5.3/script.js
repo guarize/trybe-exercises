@@ -127,12 +127,17 @@ createTask('estudar');
 
 // 8.
 
-function colorTask(color) {
-  const task = document.querySelector('span');
-  task.style.backgroundColor = color;
+function colorTaskDiv(color) {
+  let newDiv = document.createElement('div');
+  newDiv.className = 'task'
+  newDiv.style.backgroundColor = color;
+
+  myTasks.appendChild(newDiv)
 }
 
-colorTask('yellow');
+colorTaskDiv('yellow');
+
+// 9.
 
 
 

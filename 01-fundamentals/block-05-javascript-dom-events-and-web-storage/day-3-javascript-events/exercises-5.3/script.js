@@ -149,3 +149,14 @@ divElement.addEventListener("click", function(event) {
   }
 })
 
+// 10.
+
+days.addEventListener("click", function(event) {
+  let getColor = divElement.style.backgroundColor;
+
+  if (event.target.style.color === getColor) {
+    event.target.style.color = "rgb(119,119,119)";
+  } else {
+    event.target.style.color = getColor;
+  }
+})

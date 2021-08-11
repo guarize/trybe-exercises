@@ -43,7 +43,7 @@ calendarDays();
 
 // 2.
 
-function createButton(str) {
+function holidayButtonCreator(str) {
   let parentDiv = document.querySelector('.buttons-container');
   let button = document.createElement('button');
   button.id = "btn-holiday";
@@ -52,7 +52,7 @@ function createButton(str) {
   parentDiv.appendChild(button);
 }
 
-createButton("Feriados")
+holidayButtonCreator("Feriados")
 
 // 3.
 
@@ -71,3 +71,16 @@ holidayButton.addEventListener("click", function (event) {
 });
 
 // 4.
+
+function fridayButtonCreator(str) {
+  let parentDiv = document.querySelector('.buttons-container');
+  let button = document.createElement('button');
+  button.id = "btn-friday";
+  button.innerHTML = str;
+
+  parentDiv.appendChild(button);
+}
+
+fridayButtonCreator("Sexta-feira");
+
+// 5.

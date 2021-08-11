@@ -4,12 +4,7 @@ const thirdLi = document.getElementById('thirdLi');
 const input = document.getElementById('input');
 const myWebpage = document.getElementById('mySpotrybefy');
 
-// Não precisa passar o parâmetro dentro da callback resetText. O próprio
-// navegador fará esse trabalho por você, não é legal? Desse jeito, o
-// event.target na nossa função retornará o objeto 'firstLi'.
-
-// 1. Create a function that adds the class 'tech' to the selected element;
-// - There must be only one element with the class 'tech'. How do you do this?
+// 1.
 
 function addTechClass(event) {
   const techElement = document.querySelector(".tech");
@@ -21,8 +16,7 @@ firstLi.addEventListener("click", addTechClass);
 secondLi.addEventListener("click", addTechClass);
 thirdLi.addEventListener("click", addTechClass);
 
-// Create a function that, when typed into the text box, changes the text of the element
-// element with the class 'tech;
+// 2.
 
 function changeText() {
   document.querySelector('.tech').innerText = input.value;
@@ -30,9 +24,7 @@ function changeText() {
 
 input.addEventListener("keyup", changeText);
 
-// Create a function that, when double-clicking 'Meu top 3 do Spotrybefy', it
-// redirects to some page;
-// 1. How about redirecting to your portfolio?
+// 3.
 
 function redirectToGithub(event) {
   window.open("https://github.com/guarize")
@@ -40,8 +32,7 @@ function redirectToGithub(event) {
 
 myWebpage.addEventListener("dblclick", redirectToGithub)
 
-// Create a function that, when you hover the mouse over 'My Spotrybefy top 3', changes
-// its color;
+// 4.
 
 function hoverColor(event) {
   event.target.style.color = 'yellow';

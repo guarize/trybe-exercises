@@ -84,3 +84,19 @@ function fridayButtonCreator(str) {
 fridayButtonCreator("Sexta-feira");
 
 // 5.
+
+const fridayButton = document.querySelector('#btn-friday');
+const fridayList = document.querySelectorAll('.friday');
+const fridayArray = [4,11,18,25]
+
+fridayButton.addEventListener("click", function (event) {
+  for (let i = 0; i < fridayList.length; i += 1) {
+    let fridayDay = fridayList[i];
+    if (fridayDay.innerHTML !== "It's Friday then!") {
+      fridayDay.innerHTML = "It's Friday then!"
+    } else {
+      fridayDay.innerHTML = fridayArray[i];
+    }
+  }
+});
+

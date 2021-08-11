@@ -113,3 +113,26 @@ days.addEventListener("mouseout", function(event) {
 });
 
 // 7.
+
+const myTasks = document.querySelector('.my-tasks');
+
+function createTask(str) {
+  let newTask = document.createElement('span');
+  newTask.innerHTML = str;
+
+  myTasks.appendChild(newTask);
+}
+
+createTask('estudar');
+
+// 8.
+
+function colorTask(color) {
+  const task = document.querySelector('span');
+  task.style.backgroundColor = color;
+}
+
+colorTask('yellow');
+
+
+

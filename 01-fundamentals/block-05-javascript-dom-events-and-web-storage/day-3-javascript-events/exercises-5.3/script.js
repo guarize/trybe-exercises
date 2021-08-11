@@ -42,3 +42,16 @@ function calendarDays () {
 calendarDays();
 
 // 2.
+
+function createButton(str) {
+  let parentDiv = document.querySelector('.buttons-container');
+  let button = document.createElement('button');
+  button.id = "btn-holiday";
+  button.innerHTML = str;
+
+  parentDiv.appendChild(button);
+}
+
+createButton("Feriado")
+
+// 3.

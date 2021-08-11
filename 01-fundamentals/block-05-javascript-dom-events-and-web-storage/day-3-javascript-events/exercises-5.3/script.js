@@ -17,7 +17,7 @@ createDaysOfTheWeek();
 
 // 1.
 
-function calendarDays () {
+function calendarDays() {
   const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
   const daysList = document.getElementById('days');
 
@@ -52,6 +52,22 @@ function createButton(str) {
   parentDiv.appendChild(button);
 }
 
-createButton("Feriado")
+createButton("Feriados")
 
 // 3.
+
+const holidayButton = document.querySelector('#btn-holiday');
+const holidayList = document.querySelectorAll('.holiday')
+
+holidayButton.addEventListener("click", function (event) {
+  for (let i = 0; i < holidayList.length; i += 1) {
+    let holidayDays = holidayList[i];
+    if (holidayDays.style.backgroundColor !== "blue") {
+      holidayDays.style.backgroundColor = "blue";
+    } else {
+      holidayDays.style.backgroundColor = "rgb(238,238,238)";
+    }
+  }
+});
+
+// 4.

@@ -139,5 +139,13 @@ colorTaskDiv('yellow');
 
 // 9.
 
+const divElement = document.querySelector('.task');
 
+divElement.addEventListener("click", function(event) {
+  if (divElement.classList.contains('selected')) {
+    divElement.classList.remove('selected');
+  } else {
+    divElement.classList.add('selected');
+  }
+})
 

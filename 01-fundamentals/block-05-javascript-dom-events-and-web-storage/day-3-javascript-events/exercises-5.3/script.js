@@ -100,3 +100,16 @@ fridayButton.addEventListener("click", function (event) {
   }
 });
 
+// 6.
+
+const days = document.querySelector('#days');
+
+days.addEventListener("mouseover", function(event) {
+  event.target.style.fontSize = '26px'
+});
+
+days.addEventListener("mouseout", function(event) {
+  event.target.style.fontSize = '20px'
+});
+
+// 7.

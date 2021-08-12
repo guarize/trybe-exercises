@@ -11,20 +11,14 @@ p {
 }
 
 #text-container {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .changes {
   margin-top: 20px;
 }
 
-#left {
-  display: inline-block;
-  width: 500px;
-  margin-right: 60px;
-}
-
-#right {
-  display: inline-block;
-  width: 500px;
+#text {
+  margin: auto;
+  width: 600px;
 }

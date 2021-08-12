@@ -7,8 +7,8 @@
 ### Visitors should be able to change:
 <br>
 
-- [ ] Background Color;
-- [ ] Font Color;
-- [ ] Font-Size;
+- [x] Background Color;
+- [x] Font Color;
+- [x] Font-Size;
 - [ ] Letter-spacing;
 - [ ] Font-family;

@@ -1,0 +1,30 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+p {
+  text-align: justify;
+}
+
+#text-container {
+  margin-top: 80px;
+}
+
+.changes {
+  margin-top: 20px;
+}
+
+#left {
+  display: inline-block;
+  width: 500px;
+  margin-right: 60px;
+}
+
+#right {
+  display: inline-block;
+  width: 500px;
+}

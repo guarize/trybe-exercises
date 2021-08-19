@@ -5,162 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css" />
     <script src="jquery-3.6.0.min.js"></script>
     <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
   </head>
   <body>
     <main class="container">
-      <form>
-        <fieldset>
-          <legend>Personal Information</legend>
-          <div class="form-floating mb-3">
+      <form action="#" class="js-form form">
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label for="name">Enter your name</label>
             <input
-              class="form-control"
               type="text"
-              id="floatingInput"
-              name="name"
+              class="form__input form-control"
               placeholder="Enter your name"
-              maxlength="40"
-              required
+              autocomplete="off"
+              data-validate-field="name"
+              name="name"
+              id="name"
             />
-            <label for="floatingInput">Full Name:</label>
           </div>
-          <div class="mb-3">
-            <label for="email">E-mail:</label>
+          <div class="form-group col-md-6">
+            <label for="email">Enter your email</label>
             <input
-              class="form-control"
               type="email"
-              id="email"
+              class="form__input form-control"
+              placeholder="Enter your email"
+              autocomplete="off"
+              data-validate-field="email"
               name="email"
-              placeholder="Your best e-mail"
-              maxlength="50"
-              required
+              id="email"
             />
           </div>
-          <div class="mb-3">
-            <label for="cpf">CPF:</label>
-            <input
-              class="form-control"
-              type="text"
-              id="cpf"
-              name="cpf"
-              placeholder="CPF number"
-              maxlength="11"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="address">Address:</label>
-            <input
-              class="form-control"
-              type="text"
-              id="address"
-              name="address"
-              maxlength="200"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="city">City:</label>
-            <input
-              class="form-control"
-              type="text"
-              id="city"
-              name="city"
-              maxlength="28"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="state">State</label>
-            <select
-              class="form-control"
-              name="state"
-              id="state"
-              name="state"
-              required
-            ></select>
-          </div>
-          <div class="mb-3">
-            <label for="house">
-              <input
-                class="form-check-input"
-                type="radio"
-                id="house"
-                name="house-apt"
-                checked
-              />House
-            </label>
-            <label for="apt">
-              <input
-                class="form-check-input"
-                type="radio"
-                id="apt"
-                name="house-apt"
-              />Apartment
-            </label>
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend>Experience</legend>
-          <div class="mb-3">
-            <label for="summary">Resume Sumarry</label>
-            <textarea
-              class="form-control"
-              name="resume-sumarry"
-              id="sumarry"
-              cols="30"
-              rows="10"
-              maxlength="1000"
-              required
-            ></textarea>
-          </div>
-          <div class="mb-3">
-            <label for="job-title">Job Title</label>
-            <input
-              class="form-control"
-              type="text"
-              id="job-title"
-              name="job-title"
-              maxlength="40"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="job-description">Job Description</label>
-            <input
-              class="form-control"
-              type="text"
-              id="job-description"
-              name="job-description"
-              maxlength="500"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="start-date">Start Date</label>
-            <input
-              class="form-control"
-              type="date"
-              id="start-date"
-              name="date"
-              min="0000/01/01"
-              max="2021/12/31"
-              required
-            />
-          </div>
-        </fieldset>
-        <div class="mb-3">
-          <button
-            class="btn btn-success"
-            type="submit"
-            id="submit-btn"
-            name="submit-btn"
-          >
-            Submit
-          </button>
         </div>
+        <div class="form-group">
+          <label for="password">Enter your password</label>
+          <input
+            type="password"
+            class="form__input form-control"
+            placeholder="Enter your password"
+            autocomplete="off"
+            data-validate-field="password"
+            name="password"
+            id="password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input
+            type="date"
+            name="date"
+            id="date"
+            class="form__input form-control"
+            data-validate-field="date"
+          />
+        </div>
+        <div class="form-group">
+          <label for="text">Enter your text</label>
+          <textarea
+            name="msg"
+            cols="30"
+            rows="10"
+            class="form__textarea form-control"
+            data-validate-field="text"
+            id="text"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label
+            ><input
+              type="checkbox"
+              class="form__checkbox"
+              data-validate-field="checkbox1"
+              checked
+            />I agree</label
+          >
+        </div>
+        <div class="form-group">
+          <label
+            ><input
+              type="radio"
+              name="radio"
+              class="form__radio"
+              data-validate-field="radio"
+            />Male</label
+          >
+          <br />
+          <label
+            ><input
+              type="radio"
+              name="radio"
+              class="form__radio"
+              data-validate-field="radio"
+            />Female</label
+          >
+        </div>
+        <button class="form__btn btn btn-primary">SUBMIT</button>
       </form>
     </main>
     <script src="script.js"></script>

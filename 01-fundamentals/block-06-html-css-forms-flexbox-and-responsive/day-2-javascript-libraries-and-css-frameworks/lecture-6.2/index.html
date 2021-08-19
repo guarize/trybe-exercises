@@ -5,45 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap</title>
-    <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css" />
     <script src="jquery-3.6.0.min.js"></script>
     <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <main>
+    <main class="container">
       <form>
         <fieldset>
           <legend>Personal Information</legend>
-          <div class="mb-3">
-            <label for="full-name">Full Name:</label>
-            <input class="form-control" type="text" id="full-name" name="name" placeholder="Enter your name" maxlength="40" required />
+          <div class="form-floating mb-3">
+            <input
+              class="form-control"
+              type="text"
+              id="floatingInput"
+              name="name"
+              placeholder="Enter your name"
+              maxlength="40"
+              required
+            />
+            <label for="floatingInput">Full Name:</label>
           </div>
           <div class="mb-3">
             <label for="email">E-mail:</label>
-            <input class="form-control" type="email" id="email" name="email" placeholder="Your best e-mail" maxlength="50" required />
+            <input
+              class="form-control"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your best e-mail"
+              maxlength="50"
+              required
+            />
           </div>
           <div class="mb-3">
             <label for="cpf">CPF:</label>
-            <input class="form-control" type="text" id="cpf" name="cpf" placeholder="CPF number" maxlength="11" required />
+            <input
+              class="form-control"
+              type="text"
+              id="cpf"
+              name="cpf"
+              placeholder="CPF number"
+              maxlength="11"
+              required
+            />
           </div>
           <div class="mb-3">
             <label for="address">Address:</label>
-            <input class="form-control" type="text" id="address" name="address" maxlength="200" required />
+            <input
+              class="form-control"
+              type="text"
+              id="address"
+              name="address"
+              maxlength="200"
+              required
+            />
           </div>
           <div class="mb-3">
             <label for="city">City:</label>
-            <input class="form-control" type="text" id="city" name="city" maxlength="28" required />
+            <input
+              class="form-control"
+              type="text"
+              id="city"
+              name="city"
+              maxlength="28"
+              required
+            />
           </div>
           <div class="mb-3">
             <label for="state">State</label>
-            <select class="form-control" name="state" id="state" name="state" required></select>
+            <select
+              class="form-control"
+              name="state"
+              id="state"
+              name="state"
+              required
+            ></select>
           </div>
           <div class="mb-3">
             <label for="house">
-              <input class="form-check-input" type="radio" id="house" name="house-apt" checked />House
+              <input
+                class="form-check-input"
+                type="radio"
+                id="house"
+                name="house-apt"
+                checked
+              />House
             </label>
             <label for="apt">
-              <input class="form-check-input" type="radio" id="apt" name="house-apt" />Apartment
+              <input
+                class="form-check-input"
+                type="radio"
+                id="apt"
+                name="house-apt"
+              />Apartment
             </label>
           </div>
         </fieldset>
@@ -51,23 +106,58 @@
           <legend>Experience</legend>
           <div class="mb-3">
             <label for="summary">Resume Sumarry</label>
-            <textarea class="form-control" name="resume-sumarry" id="sumarry" cols="30" rows="10" maxlength="1000" required></textarea>
+            <textarea
+              class="form-control"
+              name="resume-sumarry"
+              id="sumarry"
+              cols="30"
+              rows="10"
+              maxlength="1000"
+              required
+            ></textarea>
           </div>
           <div class="mb-3">
             <label for="job-title">Job Title</label>
-            <input class="form-control" type="text" id="job-title" name="job-title" maxlength="40" required />
+            <input
+              class="form-control"
+              type="text"
+              id="job-title"
+              name="job-title"
+              maxlength="40"
+              required
+            />
           </div>
           <div class="mb-3">
             <label for="job-description">Job Description</label>
-            <input class="form-control" type="text" id="job-description" name="job-description" maxlength="500" required />
+            <input
+              class="form-control"
+              type="text"
+              id="job-description"
+              name="job-description"
+              maxlength="500"
+              required
+            />
           </div>
           <div class="mb-3">
             <label for="start-date">Start Date</label>
-            <input class="form-control" type="date" id="start-date" name="date" min="0000/01/01" max="2021/12/31" required />
+            <input
+              class="form-control"
+              type="date"
+              id="start-date"
+              name="date"
+              min="0000/01/01"
+              max="2021/12/31"
+              required
+            />
           </div>
         </fieldset>
         <div class="mb-3">
-          <button class="btn btn-success" type="submit" id="submit-btn" name="submit-btn">
+          <button
+            class="btn btn-success"
+            type="submit"
+            id="submit-btn"
+            name="submit-btn"
+          >
             Submit
           </button>
         </div>

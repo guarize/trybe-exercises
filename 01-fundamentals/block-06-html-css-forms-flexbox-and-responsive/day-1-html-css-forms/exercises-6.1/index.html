@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Curriculim - Form</title>
+</head>
+
+<body>
+  <main id="main-container">
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div class="form-items">
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="name" placeholder="Enter your name" maxlength="40" required />
+        </div>
+        <div class="form-items">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Your best e-mail" maxlength="50" required />
+        </div>
+        <div class="form-items">
+          <label for="cpf">CPF:</label>
+          <input type="text" id="cpf" name="cpf" placeholder="CPF number" maxlength="11" required />
+        </div>
+        <div class="form-items">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" maxlength="200" required />
+        </div>
+        <div class="form-items">
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" maxlength="28" required />
+        </div>
+        <div class="form-items">
+          <label for="state">State</label>
+          <select name="state" id="state" name="state" required></select>
+        </div>
+        <div class="form-items">
+          <label for="house">
+            <input type="radio" id="house" name="house-apt" checked />House
+          </label>
+          <label for="apt">
+            <input type="radio" id="apt" name="house-apt" />Apartment
+          </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Experience</legend>
+        <div class="form-items">
+          <label for="summary">Resume Sumarry</label>
+          <textarea name="resume-sumarry" id="sumarry" cols="30" rows="10" maxlength="1000" required></textarea>
+        </div>
+        <div class="form-items">
+          <label for="job-title">Job Title</label>
+          <input type="text" id="job-title" name="job-title" maxlength="40" required />
+        </div>
+        <div class="form-items">
+          <label for="job-description">Job Description</label>
+          <input type="text" id="job-description" name="job-description" maxlength="500" required />
+        </div>
+        <div class="form-items">
+          <label for="start-date">Start Date</label>
+          <input type="date" id="start-date" name="date" min="0000/01/01" max="2021/12/31" required />
+        </div>
+      </fieldset>
+      <div>
+        <button type="submit" id="submit-btn" name="submit-btn">
+          Submit
+        </button>
+        <button type="button" id="clean-btn" name="clean-btn">Clean</button>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

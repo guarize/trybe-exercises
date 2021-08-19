@@ -5,7 +5,7 @@
 ### Do the validations initially by HTML
 <br>
 
-- [ ] Create a `<fieldset>` for the following personal data:
+- [x] Create a `<fieldset>` for the following personal data:
 * Name - Text
   * 40-character limit
   * Required field
@@ -30,7 +30,7 @@
   * Required field
 <br>
 
-- [ ] Create another `<fieldset>` for data from your last job
+- [x] Create another `<fieldset>` for data from your last job
 * Resume Summary - TextArea
   * 1000-character limit
   * Required field
@@ -56,4 +56,4 @@
 * If there is any invalid data, show in a `<div>` an error message. If the error is in the Start Date , the message must be contextualized.
 <br>
 
-- [ ] Create a Clear button that clears all the fields on the form and the `<div>` with your resume as well.
+- [x] Create a Clear button that clears all the fields on the form and the `<div>` with your resume as well.

@@ -33,20 +33,20 @@ Contains all the activities __[I](https://www.linkedin.com/in/pedroguarize/)__ d
 - [x] 4.4 - JavaScript - Objects and functions
 - [x] 4.5 - Project - Playground Functions
 
-##### Block 5: [JavaScript: DOM, Events, and Web Storage]()
+##### Block 5: [JavaScript: DOM, Events, and Web Storage]() :heavy_check_mark:
 - [x] 5.1 - JavaScript - DOM and selectors
 - [x] 5.2 - JavaScript - Handling elements
-- [ ] 5.3 - JavaScript - Events
-- [ ] 5.4 - JavaScript - Web Storage
-- [ ] 5.5 - Fundamentals - JavaScript - Projects
-- [ ] 5.5 - Project - Pixel Art
-- [ ] 5.6 - Project - To-Do List
-- [ ] 5.7 - (Bonus) Project - Meme Generator
-- [ ] 5.7 - (Bonus) Project - Guess the Color
-- [ ] 5.7 - (Bonus) Project - Mystery Letter
+- [x] 5.3 - JavaScript - Events
+- [x] 5.4 - JavaScript - Web Storage
+- [x] 5.5 - Fundamentals - JavaScript - Projects
+- [x] 5.5 - Project - Pixel Art
+- [x] 5.6 - Project - To-Do List
+- [x] 5.7 - (Bonus) Project - Meme Generator
+- [x] 5.7 - (Bonus) Project - Guess the Color
+- [x] 5.7 - (Bonus) Project - Mystery Letter
 
 ##### Block 6: [HTML and CSS: Forms, Flexbox and Responsive]()
-- [ ] 6.1 - HTML & CSS - Forms
+- [x] 6.1 - HTML & CSS - Forms
 - [ ] 6.2 - JavaScript Libraries and CSS Frameworks
 - [ ] 6.3 - Introduction - CSS Flexbox
 - [ ] 6.3 - CSS Flexbox - Part 1

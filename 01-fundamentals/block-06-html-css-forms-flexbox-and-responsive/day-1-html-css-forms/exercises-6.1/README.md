@@ -49,7 +49,7 @@
   * Required field
 <br>
 
-- [ ] Just below the form, create a button that:
+- [x] Just below the form, create a button that:
 * Call a JavaScript function and stop the automatic flow of the form using `preventDefault()`. Note that this will prevent HTML validations when submitting.
 * Now implement, in Javascript, the validations that were requested during the assembly of the form.
 * If all the data is valid, set up a `<div>` with the consolidated data that was entered into the form.

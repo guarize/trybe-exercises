@@ -4,13 +4,13 @@
 
 <hr>
 
-- [x] Bloco 1: Unix & Bash
-- [x] Bloco 2: Git, GitHub e Internet
-- [ ] Bloco 3: Introdução à HTML e CSS
-- [ ] Bloco 4: Introdução à JavaScript e Lógica de Programação
-- [ ] Bloco 5: JavaScript: DOM, Eventos e Web Storage
-- [ ] Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
-- [ ] Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
-- [ ] Bloco 8: Higher Order Functions do JavaScript ES6
-- [ ] Bloco 9: JavaScript Assíncrono e Promises
-- [ ] Bloco 10: Testes automatizados com Jest
+- [x] Block 1: Unix, Bash and Shell Script
+- [x] Block 2: Git, GitHub and Internet
+- [x] Block 3: Introduction to HTML and CSS
+- [x] Block 4: Introduction to JavaScript and Programming Logic
+- [x] Block 5: JavaScript: DOM, Events, and Web Storage
+- [ ] Block 6: HTML and CSS: Forms, Flexbox and Responsive
+- [ ] Block 7: Introduction to JavaScript ES6 and Unit Tests
+- [ ] Block 8: Higher Order Functions from JavaScript ES6
+- [ ] Block 9: Asynchronous JavaScript and Promises
+- [ ] Block 10: Automated testing with Jest

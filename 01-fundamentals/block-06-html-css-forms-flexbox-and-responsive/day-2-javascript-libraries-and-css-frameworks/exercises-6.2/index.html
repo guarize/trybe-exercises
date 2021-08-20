@@ -7,12 +7,14 @@
     <title>Bootstrap</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="pikaday.css">
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <script src="jquery-3.6.0.min.js"></script>
     <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
   </head>
   <body>
     <main class="container">
-      <form action="#" class="js-form">
+      <form action="#" class="js-form" autocomplete="on">
         <div class="row">
           <div class="form-group col-md-6">
             <label for="name">Enter your name</label>
@@ -20,7 +22,6 @@
               type="text"
               class="form__input form-control"
               placeholder="Enter your name"
-              autocomplete="off"
               data-validate-field="name"
               name="name"
               id="name"
@@ -32,7 +33,6 @@
               type="email"
               class="form__input form-control"
               placeholder="Enter your email"
-              autocomplete="off"
               data-validate-field="email"
               name="email"
               id="email"
@@ -45,14 +45,13 @@
             type="password"
             class="form__input form-control"
             placeholder="Enter your password"
-            autocomplete="off"
             data-validate-field="password"
             name="password"
             id="password"
           />
         </div>
         <div class="form-group">
-          <label for="date">Date</label>
+          <label class="form-label" for="start-date">Start Date: </label>
           <input
             autocomplete="off"
             data-validate-field="date"
@@ -107,6 +106,7 @@
         <button class="form__btn btn btn-primary">SUBMIT</button>
       </form>
     </main>
+    <script src="pikaday.js"></script>
     <script src="script.js" type="module"></script>
   </body>
 </html>

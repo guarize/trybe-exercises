@@ -1,6 +1,6 @@
-# Fundamentos do Desenvolvimento Web
+# Web Development Fundamentals
 
-### Nesse bloco aprendi os fundamentos para iniciar minha carreira no mundo do Desenvolvimento Web.
+### In this block I learned the fundamentals to start my career in Web Development.
 
 <hr>
 

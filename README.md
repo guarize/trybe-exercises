@@ -47,9 +47,8 @@ Contains all the activities __[I](https://www.linkedin.com/in/pedroguarize/)__ d
 
 ##### Block 6: [HTML and CSS: Forms, Flexbox and Responsive]()
 - [x] 6.1 - HTML & CSS - Forms
-- [ ] 6.2 - JavaScript Libraries and CSS Frameworks
-- [ ] 6.3 - Introduction - CSS Flexbox
-- [ ] 6.3 - CSS Flexbox - Part 1
+- [x] 6.2 - JavaScript Libraries and CSS Frameworks
+- [x] 6.3 - CSS Flexbox - Part 1
 - [ ] 6.4 - CSS Flexbox - Part 2
 - [ ] 6.5 - Responsive CSS - Mobile First
 - [ ] 6.6 - Project - Facebook Home

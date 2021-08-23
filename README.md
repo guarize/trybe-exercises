@@ -1,6 +1,6 @@
 # Trybe - Exercises
 
-Contains all the activities developed by__[Pedro Guarize Montenegro](https://www.linkedin.com/in/pedroguarize/) during [Trybe's](https://www.betrybe.com/) bootcamp.
+Contains all the activities developed by [Pedro Guarize Montenegro](https://www.linkedin.com/in/pedroguarize/) during [Trybe's](https://www.betrybe.com/) bootcamp.
 
 >"The program has more than 1,500 hours of online classes, covering introduction to software development, front-end, back-end, computer science, software engineering, agile methodologies, and behavioral skills."
 

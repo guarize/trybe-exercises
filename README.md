@@ -1,13 +1,12 @@
 # Trybe - Exercises
 
-Contains all the activities __[I](https://www.linkedin.com/in/pedroguarize/)__ developed during my journey at [Trybe](https://www.betrybe.com/).
+Contains all the activities developed by__[Pedro Guarize Montenegro](https://www.linkedin.com/in/pedroguarize/) during [Trybe's](https://www.betrybe.com/) bootcamp.
 
 >"The program has more than 1,500 hours of online classes, covering introduction to software development, front-end, back-end, computer science, software engineering, agile methodologies, and behavioral skills."
 
 ## Web Development Fundamentals :hourglass_flowing_sand:
 
 ##### Block 1: [Unix, Bash and Shell Script]() :heavy_check_mark:
-- [x] 1.3 - Web Development Fundamentals
 - [x] 1.3 - Introduction - Unix & Shell
 - [x] 1.3 - Unix & Bash - Part 1
 - [x] 1.4 - Unix & Bash - Part 2
@@ -18,7 +17,6 @@ Contains all the activities __[I](https://www.linkedin.com/in/pedroguarize/)__ d
 - [x] 2.3 - Internet - Understanding How It Works
 
 ##### Block 3: [Introduction to HTML and CSS]() :heavy_check_mark:
-- [x] 3.1 - Introduction - HTML & CSS
 - [x] 3.1 - HTML & CSS - Page structures
 - [x] 3.2 - HTML & CSS - Getting Started with CSS
 - [x] 3.3 - HTML & CSS - Selectors and positioning
@@ -26,7 +24,6 @@ Contains all the activities __[I](https://www.linkedin.com/in/pedroguarize/)__ d
 - [x] 3.5 - Project - Lessons Learned
 
 ##### Block 4: [Introduction to JavaScript and Programming Logic]() :heavy_check_mark:
-- [x] 4.1 - Introduction - JavaScript
 - [x] 4.1 - JavaScript - Getting Started
 - [x] 4.2 - JavaScript - Array and For loop
 - [x] 4.3 - JavaScript - Programming Logic and Algorithms
@@ -49,7 +46,7 @@ Contains all the activities __[I](https://www.linkedin.com/in/pedroguarize/)__ d
 - [x] 6.1 - HTML & CSS - Forms
 - [x] 6.2 - JavaScript Libraries and CSS Frameworks
 - [x] 6.3 - CSS Flexbox - Part 1
-- [ ] 6.4 - CSS Flexbox - Part 2
+- [x] 6.4 - CSS Flexbox - Part 2
 - [ ] 6.5 - Responsive CSS - Mobile First
 - [ ] 6.6 - Project - Facebook Home
 

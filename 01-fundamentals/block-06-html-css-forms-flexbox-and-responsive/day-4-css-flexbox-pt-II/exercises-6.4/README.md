@@ -28,6 +28,6 @@
 
 - [x] 7 - Add a property that makes your movie container have a 700px base and another 16% base for the divs of your card container.
 
-- [ ] 8 - Apply a property with value 10 that expands the movie container.
+- [x] 8 - Apply a property with value 10 that expands the movie container.
 
 - [ ] 9 - Add a property with a value of 1 that makes your div in the movie container occupy all the white space.

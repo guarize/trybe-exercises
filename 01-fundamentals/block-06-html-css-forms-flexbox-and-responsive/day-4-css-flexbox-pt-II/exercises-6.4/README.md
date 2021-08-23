@@ -30,4 +30,4 @@
 
 - [x] 8 - Apply a property with value 10 that expands the movie container.
 
-- [ ] 9 - Add a property with a value of 1 that makes your div in the movie container occupy all the white space.
+- [x] 9 - Add a property with a value of 1 that makes your div in the movie container occupy all the white space.

@@ -7,7 +7,7 @@
 ### Part. I
 <br>
 
-- [ ] 1 - Add a property that defines the base Flexbox size for the image container as 268px and 500px for the menu container.
+- [x] 1 - Add a property that defines the base Flexbox size for the image container as 268px and 500px for the menu container.
 
 - [ ] 2 - Add a Flexbox property that changes the order in which the logo and menu items appear on the screen.
 
@@ -22,12 +22,12 @@
 ### Let's continue practicing with the continuation of the header from the exercise above and build a `<main>` with the rest of your page.
 <br>
 
-- [ ] 1 - Apply a 350px base to your container aside.
+- [ ] 5 - Apply a 350px base to your container aside.
 
-- [ ] 2 - Apply one alignment to center and another to expand.
+- [ ] 6 - Apply one alignment to center and another to expand.
 
-- [ ] 3 - Add a property that makes your movie container have a 700px base and another 16% base for the divs of your card container.
+- [ ] 7 - Add a property that makes your movie container have a 700px base and another 16% base for the divs of your card container.
 
-- [ ] 4 - Apply a property with value 10 that expands the movie container.
+- [ ] 8 - Apply a property with value 10 that expands the movie container.
 
-- [ ] 5 - Add a property with a value of 1 that makes your div in the movie container occupy all the white space.
+- [ ] 9 - Add a property with a value of 1 that makes your div in the movie container occupy all the white space.

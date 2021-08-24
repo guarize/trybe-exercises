@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.header-container {
+  background-color: rgb(136,68,238);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 60px;
+}
+
+.header {
+  font-size: 1.7em;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header nav ul li {
+  padding: 0 15px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.aside {
+  margin: 0 80px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #a4a4a4;
+  padding: 30px;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 30px;
+}
+
+.main-content p {
+  font-size: 1.25em;
+}
+
+.footer {
+  background: rgb(136,68,238);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+@media (max-width: 599px) {
+  body {
+    background-color: rgb(44, 44, 44);
+    color: white;
+  }
+
+  .aside {
+    margin: 0 10px;
+    background-color: #3d3d3d;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: rgb(156, 156, 156);
+  }
+
+  .aside {
+    margin: 0 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: rgb(204, 203, 203);
+  }
+
+  .aside {
+    margin: 0 40px;
+  }
+}

@@ -5,10 +5,9 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 0;
   font-family: "Nunito", sans-serif;
-  max-width: 960px;
 }
 
 h1 {
@@ -40,4 +39,16 @@ figure {
 figcaption {
   font-size: 1.15em;
   padding: 15px;
+}
+
+@media (min-width: 798px) {
+  body {
+    font-size: 1.25em;
+    background-color: #a4a4a4;
+    margin: 50px auto;
+    max-width: 960px;
+  }
+  figure {
+    float: left;
+  }
 }

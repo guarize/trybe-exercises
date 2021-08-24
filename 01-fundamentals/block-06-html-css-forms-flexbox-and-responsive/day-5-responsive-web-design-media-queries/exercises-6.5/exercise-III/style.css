@@ -83,6 +83,7 @@ body {
 #content-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   background: #fff;
 }
@@ -95,12 +96,16 @@ body {
 }
 
 #content h2 {
-  margin: 0;
+  margin: 10px;
+}
+
+#content p {
+  margin: 20px 0;
 }
 
 #aside {
   width: 33%;
-  padding: 20px 0;
+  padding: 20px 20px;
   margin: 0 3% 0 0;
 }
 
@@ -134,5 +139,34 @@ body {
 
   #aside {
     order: 1;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #content {
+    margin-top: 150px;
+    width: 80%;
+  }
+
+  #aside {
+    display: none;
+  }
+
+  #navigation {
+    width: 95%;
+    margin: 5px auto;
+  }
+
+  #navigation ul {
+    flex-direction: column;
+  }
+
+  #navigation li a {
+    border-right: none;
+  }
+
+  #header-container {
+    width: 100%;
+    position: fixed;
   }
 }

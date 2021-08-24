@@ -52,3 +52,12 @@ figcaption {
     float: left;
   }
 }
+
+@media (min-width: 1200px) {
+  body {
+    background-color: #7c7c7c;
+    font-size: 1.5em;
+    max-width: 1030px;
+    margin: 60px auto;
+  }
+}

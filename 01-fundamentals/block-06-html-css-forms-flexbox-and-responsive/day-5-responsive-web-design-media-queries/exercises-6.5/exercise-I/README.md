@@ -11,8 +11,8 @@
     * Adjust the font size;
     * Adjust the page margins;
     * Make the images be displayed in two columns.
-- [ ] 7 - Now you will create another breakpoint for large screens. Resize your canvas again to find a new breakpoint.
-- [ ] 8 - Create a new media query in your CSS file using the dimension you found for large screens (for example 1300px) , and make the following adjustments within the breakpoint :
+- [x] 7 - Now you will create another breakpoint for large screens. Resize your canvas again to find a new breakpoint.
+- [x] 8 - Create a new media query in your CSS file using the dimension you found for large screens (for example 1300px) , and make the following adjustments within the breakpoint :
     * Change the background color;
     * Adjust the font size;
     * Adjust the page margins;

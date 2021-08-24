@@ -77,3 +77,15 @@ p strong {
     display: block;
   }
 }
+
+@media (max-width: 650px) {
+  .card:nth-of-type(3) {
+    display: block;
+  }
+}
+
+@media (min-width: 950px) {
+  .card:nth-of-type(3) {
+    display: block;
+  }
+}

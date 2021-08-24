@@ -38,17 +38,15 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 5.5 - Fundamentals - JavaScript - Projects
 - [x] 5.5 - Project - Pixel Art
 - [x] 5.6 - Project - To-Do List
-- [x] 5.7 - (Bonus) Project - Meme Generator
 - [x] 5.7 - (Bonus) Project - Guess the Color
-- [x] 5.7 - (Bonus) Project - Mystery Letter
 
 ##### Block 6: [HTML and CSS: Forms, Flexbox and Responsive]()
 - [x] 6.1 - HTML & CSS - Forms
 - [x] 6.2 - JavaScript Libraries and CSS Frameworks
 - [x] 6.3 - CSS Flexbox - Part 1
 - [x] 6.4 - CSS Flexbox - Part 2
-- [ ] 6.5 - Responsive CSS - Mobile First
-- [ ] 6.6 - Project - Facebook Home
+- [x] 6.5 - Responsive CSS - Mobile First
+- [ ] 6.6 - Project - Trybewarts
 
 ##### Block 7: [Introduction to JavaScript ES6 and Unit Tests]()
 - [ ] 7.1 - JavaScript ES6 - let, const, arrow functions and template literals

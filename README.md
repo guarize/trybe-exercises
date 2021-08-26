@@ -46,7 +46,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 6.3 - CSS Flexbox - Part 1
 - [x] 6.4 - CSS Flexbox - Part 2
 - [x] 6.5 - Responsive CSS - Mobile First
-- [ ] 6.6 - Project - Trybewarts
+- [x] 6.6 - Project - Trybewarts
 
 ##### Block 7: [Introduction to JavaScript ES6 and Unit Tests]()
 - [ ] 7.1 - JavaScript ES6 - let, const, arrow functions and template literals

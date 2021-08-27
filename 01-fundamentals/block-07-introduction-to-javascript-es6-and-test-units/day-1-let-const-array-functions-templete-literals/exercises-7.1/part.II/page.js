@@ -2,9 +2,9 @@ const btn = document.getElementById('btn');
 const stringP = document.getElementById('string');
 const nameInput = document.getElementById('name');
 const skillsBtn = document.getElementById('skills-btn');
-const skillsP = document.getElementById('skills-p')
+const skillsP = document.getElementById('skills-p');
 const str = 'Tryber x aqui';
-const skills = ['JavaScript', 'CSS', 'HTML', 'Git', 'Bootstrap']
+const skills = ['JavaScript', 'CSS', 'HTML', 'Git', 'Bootstrap'];
 
 let clickCount = 0;
 const counter = document.getElementById('counter');

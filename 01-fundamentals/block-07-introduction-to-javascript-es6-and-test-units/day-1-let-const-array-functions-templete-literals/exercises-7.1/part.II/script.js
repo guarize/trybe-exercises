@@ -14,7 +14,8 @@ const factorial = (number) => {
 
 // Bonus (optional): try doing the same exercise recursively.
 
-const factorialRec = (number) => number === 0 ? 1 : number * factorial(number - 1);
+const factorialRec = (number) =>
+  number === 0 ? 1 : number * factorial(number - 1);
 
 // 2 - Create a function that takes a sentence and returns the largest word.
 
@@ -27,8 +28,12 @@ const largestWord = (str) => {
     }
   }
   return result;
-}
+};
 
 // Refactoring
 
-const largestWord2 = (str) => str.split(' ').sort((a, b) => a.length - b.length).pop();
+const largestWord2 = (str) =>
+  str
+    .split(' ')
+    .sort((a, b) => a.length - b.length)
+    .pop();

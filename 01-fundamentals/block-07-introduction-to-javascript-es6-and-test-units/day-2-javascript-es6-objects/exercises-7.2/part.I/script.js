@@ -34,15 +34,19 @@ const order = {
   },
 };
 
+// Complete the customerInfo() function so that its return is similar to "Hello Ana Silveira, delivery for: Rafael Andrade, Phone: 11-98763-1416, R. Rua das Flores, No: 389, AP: 701".
+
 const customerInfo = (order) => {
   const deliveryPerson = order.order.delivery.deliveryPerson;
   const name = order.name;
   const phoneNo = order.phoneNumber;
   const address = order.address;
-  console.log(`Olá ${deliveryPerson}, entrega para: ${name}, Telefone: ${phoneNo}, ${address.street}, Nº:${address.number}, Ap:${address.apartment}.`);
+  console.log(`Hello ${deliveryPerson}, delivery for: ${name}, Phone: ${phoneNo}, ${address.street}, Nº:${address.number}, Ap:${address.apartment}.`);
 }
 
 customerInfo(order);
+
+// Complete the orderModifier() function so that its return is similar to "Hello Luiz Silva, your order total for marguerita, pepperoni, and Coke Zero is $50.00."
 
 const orderModifier = (order) => {
   const modifier = {
@@ -53,7 +57,7 @@ const orderModifier = (order) => {
   };
   const newOrder = Object.assign(order, modifier);
 
-  console.log(`Olá ${order.name}, o total do seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$${order.payment.total},00.`);
+  console.log(`Hello ${order.name}, your order total for marguerita, pepperoni, and Coke Zero is $${order.payment.total},00.`);
 }
 
 orderModifier(order);

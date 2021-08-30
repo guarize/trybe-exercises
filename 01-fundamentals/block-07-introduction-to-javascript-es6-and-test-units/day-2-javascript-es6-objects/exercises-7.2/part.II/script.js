@@ -59,7 +59,7 @@ const studentsNumber = (obj) => {
   return students;
 };
 
-console.log(studentsNumber(allLessons))
+console.log(studentsNumber(allLessons));
 
 // 7 - Create a function that gets the value of the key according to its position on the object.
 
@@ -71,4 +71,44 @@ console.log(valueByIndex(lesson1, 0));
 
 const checkKeyValue = (obj, objKey, objValue) => obj[objKey] === objValue;
 
-console.log(checkKeyValue(lesson3, 'turno', 'Maria Clara'))
+console.log(checkKeyValue(lesson3, "turno", "Maria Clara"));
+
+// BONUS
+
+// Create a function to count how many students attended the math classes. Use the object created in exercise 5.
+
+const mathStudents = (obj) => {
+  let total = 0;
+  for (const key in obj) {
+    if (obj[key].materia === "Matemática") {
+      total += obj[key].numeroEstudantes;
+    }
+  }
+  return total;
+};
+
+console.log(mathStudents(allLessons));
+
+// Create a function that should return an object representing the teacher's report, the lessons he or she taught, and the total number of students. Use the object you created in exercise 5:
+
+const teacherReport = (obj, teacher) => {
+  const classes = [];
+  let students = 0;
+
+  for (const key in obj) {
+    if (obj[key].professor === teacher) {
+      classes.push(obj[key].materia);
+      students += obj[key].numeroEstudantes;
+    }
+  }
+
+  const report = {
+    professor: teacher,
+    aulas: classes,
+    estudantes: students,
+  };
+  
+  return report;
+};
+
+console.log(teacherReport(allLessons, 'Maria Clara'));

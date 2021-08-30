@@ -49,8 +49,8 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 6.6 - Project - Trybewarts
 
 ##### Block 7: [Introduction to JavaScript ES6 and Unit Tests]()
-- [ ] 7.1 - JavaScript ES6 - let, const, arrow functions and template literals
-- [ ] 7.2 - JavaScript ES6 - Objects
+- [x] 7.1 - JavaScript ES6 - let, const, arrow functions and template literals
+- [x] 7.2 - JavaScript ES6 - Objects
 - [ ] 7.3 - Unit Tests in JavaScript
 - [ ] 7.4 - Project - JavaScript Unit Testing
 

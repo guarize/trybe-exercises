@@ -2,7 +2,7 @@
 // [x] Check that the call myRemoveWithoutCopy([1, 2, 3, 4], 3) returns the expected array
 // [] Check that the call myRemoveWithoutCopy([1, 2, 3, 4], 3) does not return the array [1, 2, 3, 4]
 // [x] Make a call to the function myRemoveWithoutCopy and check if the array passed as parameter has changed
-// [] Check that the call myRemoveWithoutCopy([1, 2, 3, 4], 5) returns the expected array
+// [x] Check that the call myRemoveWithoutCopy([1, 2, 3, 4], 5) returns the expected array
 
 const assert = require("assert");
 

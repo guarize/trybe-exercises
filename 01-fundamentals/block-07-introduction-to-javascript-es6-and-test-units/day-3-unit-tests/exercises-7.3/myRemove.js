@@ -4,7 +4,7 @@
 // [x] Check that the array passed as parameter has not changed.
 // [] Check that the call myRemove([1, 2, 3, 4], 5) returns the expected array
 
-const assert = require("assert");
+const assert = require('assert');
 
 function myRemove(arr, item) {
   let newArr = [];

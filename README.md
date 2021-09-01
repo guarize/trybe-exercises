@@ -6,7 +6,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 ## Web Development Fundamentals :hourglass_flowing_sand:
 
-##### Block 1: [Unix, Bash and Shell Script]() :heavy_check_mark:
+##### Block 1: [Unix, Bash and Shell Script](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-01-unix-and-shell/dia-03-unix-e-bash-part-1) :heavy_check_mark:
 - [x] 1.3 - Introduction - Unix & Shell
 - [x] 1.3 - Unix & Bash - Part 1
 - [x] 1.4 - Unix & Bash - Part 2
@@ -16,21 +16,21 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 2.2 - Git & GitHub - Understanding Commands
 - [x] 2.3 - Internet - Understanding How It Works
 
-##### Block 3: [Introduction to HTML and CSS]() :heavy_check_mark:
+##### Block 3: [Introduction to HTML and CSS](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-03-introduction-to-html-and-css) :heavy_check_mark:
 - [x] 3.1 - HTML & CSS - Page structures
 - [x] 3.2 - HTML & CSS - Getting Started with CSS
 - [x] 3.3 - HTML & CSS - Selectors and positioning
 - [x] 3.4 - Semantic HTML
 - [x] 3.5 - Project - Lessons Learned
 
-##### Block 4: [Introduction to JavaScript and Programming Logic]() :heavy_check_mark:
+##### Block 4: [Introduction to JavaScript and Programming Logic](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-04-introduction-to-javascript-and-programming-logic) :heavy_check_mark:
 - [x] 4.1 - JavaScript - Getting Started
 - [x] 4.2 - JavaScript - Array and For loop
 - [x] 4.3 - JavaScript - Programming Logic and Algorithms
 - [x] 4.4 - JavaScript - Objects and functions
 - [x] 4.5 - Project - Playground Functions
 
-##### Block 5: [JavaScript: DOM, Events, and Web Storage]() :heavy_check_mark:
+##### Block 5: [JavaScript: DOM, Events, and Web Storage](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-05-javascript-dom-events-and-web-storage) :heavy_check_mark:
 - [x] 5.1 - JavaScript - DOM and selectors
 - [x] 5.2 - JavaScript - Handling elements
 - [x] 5.3 - JavaScript - Events
@@ -40,7 +40,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 5.6 - Project - To-Do List
 - [x] 5.7 - (Bonus) Project - Guess the Color
 
-##### Block 6: [HTML and CSS: Forms, Flexbox and Responsive]()
+##### Block 6: [HTML and CSS: Forms, Flexbox and Responsive](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-06-html-css-forms-flexbox-and-responsive) :heavy_check_mark:
 - [x] 6.1 - HTML & CSS - Forms
 - [x] 6.2 - JavaScript Libraries and CSS Frameworks
 - [x] 6.3 - CSS Flexbox - Part 1
@@ -48,11 +48,11 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 6.5 - Responsive CSS - Mobile First
 - [x] 6.6 - Project - Trybewarts
 
-##### Block 7: [Introduction to JavaScript ES6 and Unit Tests]()
+##### Block 7: [Introduction to JavaScript ES6 and Unit Tests](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-07-introduction-to-javascript-es6-and-test-units) :heavy_check_mark:
 - [x] 7.1 - JavaScript ES6 - let, const, arrow functions and template literals
 - [x] 7.2 - JavaScript ES6 - Objects
-- [ ] 7.3 - Unit Tests in JavaScript
-- [ ] 7.4 - Project - JavaScript Unit Testing
+- [x] 7.3 - Unit Tests in JavaScript
+- [x] 7.4 - Project - JavaScript Unit Testing
 
 ##### Block 8: [Higher Order Functions from JavaScript ES6]()
 - [ ] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort

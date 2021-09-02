@@ -11,7 +11,7 @@ const newEmployees = (action) => ({
     id3: action('Carla Paiva'),
 });
 
-// console.log(newEmployees(createEmployees));
+console.log(newEmployees(createEmployees));
 
 // 2 - Create an HOF that returns the result of a prize draw. This HOF will generate a random number between 1 and 5 receiving as parameters the bet number and a function that checks if the bet number is equal to the drawn number. The return of your HOF should be a string (e.g. 'Try again' or 'Congratulations you won').
 
@@ -37,16 +37,16 @@ const checkScore = (rightAnswers, studentAnswers, action) => action(rightAnswers
 
 const compare = (rightAnswers, studentAnswers) => {
   let count = 0;
-  for (let i = 0; i < rightAnswers.length; i += 1) {
-    if (rightAnswers[i] === studentAnswers[i]) {
+  rightAnswers.forEach((element, index) => {
+    if (element === studentAnswers[index]) {
       count++;
-    }else if (studentAnswers[i] === 'N.A') {
+    } else if (studentAnswers[index] === 'N.A') {
       count += 0;
     } else {
       count += -0.5;
     }
-  }
+  });
   return count;
-};
+}
 
 console.log(checkScore(RIGHT_ANSWERS, STUDENT_ANSWERS, compare));

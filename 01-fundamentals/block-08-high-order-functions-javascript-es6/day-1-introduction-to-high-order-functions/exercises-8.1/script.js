@@ -40,6 +40,10 @@ const compare = (rightAnswers, studentAnswers) => {
   rightAnswers.forEach((element, index) => {
     if (element === studentAnswers[index]) {
       count++;
+    } else if (studentAnswers[index] === 'N.A') {
+      count += 0;
+    } else {
+      count += -0.5;
     }
   });
   return count;

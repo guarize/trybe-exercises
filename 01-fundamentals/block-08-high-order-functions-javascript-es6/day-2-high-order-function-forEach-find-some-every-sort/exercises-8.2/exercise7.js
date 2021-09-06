@@ -72,7 +72,7 @@ const authorUnique = () => {
   books.forEach((elem) => {
     years.push(elem.author.birthYear)
   });
-  return new Set(years) === years.length;
+  return new Set(years).size === years.length;
 };
 
 console.log(authorUnique());

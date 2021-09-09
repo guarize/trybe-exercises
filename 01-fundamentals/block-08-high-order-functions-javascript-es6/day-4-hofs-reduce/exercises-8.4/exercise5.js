@@ -9,10 +9,7 @@ const names = [
 ];
 
 function containsA() {
-  return names.join(' ').split('').reduce((acc, curr) => {
-    if (curr === 'a' || curr === 'A') return acc + 1;
-    return acc;
-  }, 0)
+  return names.join(' ').split('').reduce((acc, curr) => (curr === 'a' || curr === 'A') ? acc + 1 : acc, 0);
 }
 
 assert.deepStrictEqual(containsA(), 20);

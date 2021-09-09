@@ -11,4 +11,6 @@ const names = [
 const containsA = () => names.join(' ').split('')
 .reduce((acc, curr) => (curr === 'a' || curr === 'A') ? acc + 1 : acc, 0);
 
+console.log(containsA());
+
 assert.deepStrictEqual(containsA(), 20);

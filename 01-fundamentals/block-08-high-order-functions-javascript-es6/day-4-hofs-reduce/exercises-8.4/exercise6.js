@@ -6,8 +6,8 @@ const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
 const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 const test = [9, 8, 23, 6, 32, 5];
 
-const studentAverage = () => students.map((x, i) => ({
-    name: x,
+const studentAverage = () => students.map((student, i) => ({
+    name: student,
     average: grades[i].reduce((acc, curr) => acc + curr, 0) / grades[i].length,
   }));
 
@@ -16,5 +16,7 @@ const expected = [
   { name: 'Miguel', average: 9.2 },
   { name: 'Maria Clara', average: 8.8 },
 ];
+
+console.log(studentAverage());
 
 assert.deepStrictEqual(studentAverage(), expected);

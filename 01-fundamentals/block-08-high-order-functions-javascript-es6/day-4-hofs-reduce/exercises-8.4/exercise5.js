@@ -8,8 +8,7 @@ const names = [
   'Abeladerco', 'Adieidy', 'Alarucha',
 ];
 
-function containsA() {
-  return names.join(' ').split('').reduce((acc, curr) => (curr === 'a' || curr === 'A') ? acc + 1 : acc, 0);
-}
+const containsA = () => names.join(' ').split('')
+.reduce((acc, curr) => (curr === 'a' || curr === 'A') ? acc + 1 : acc, 0);
 
 assert.deepStrictEqual(containsA(), 20);

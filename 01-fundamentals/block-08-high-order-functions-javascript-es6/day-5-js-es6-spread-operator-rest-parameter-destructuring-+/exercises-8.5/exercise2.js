@@ -1,3 +1,5 @@
+// 2 - Create a sum function that given a variable number of elements returns the sum of these elements.
+
 const assert = require('assert');
 
 const sum = (...nums) => nums.reduce((acc, curr) => acc + curr, 0);

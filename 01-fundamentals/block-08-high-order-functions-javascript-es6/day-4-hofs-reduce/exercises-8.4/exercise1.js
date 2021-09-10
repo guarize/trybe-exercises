@@ -8,9 +8,7 @@ const arrays = [
   [4, 5, 6],
 ];
 
-function flatten() {
-  return arrays.reduce((x, y) => x.concat(y), []);
-}
+const flatten = () => arrays.reduce((x, y) => x.concat(y), []);
 
 console.log(flatten());
 

@@ -4,7 +4,7 @@ const assert = require('assert');
 
 const myList = [1, 2, 3];
 
-// const swap = (arr) => arr.reverse(); 
+// const swap = (arr) => arr.reverse();
 
 const swap = ([a, b, c]) => [c, b, a];
 

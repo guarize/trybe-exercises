@@ -20,7 +20,8 @@ const ships = [
   },
 ];
 
-const shipLength = ({name, length, measurementUnit}) => `${name} is ${length} ${measurementUnit} long`;
+const shipLength = ({ name, length, measurementUnit }) =>
+  `${name} is ${length} ${measurementUnit} long`;
 
 console.log(shipLength(ships[2]));
 

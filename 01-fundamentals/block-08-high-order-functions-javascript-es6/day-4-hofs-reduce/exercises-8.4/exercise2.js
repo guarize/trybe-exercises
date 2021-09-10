@@ -67,13 +67,11 @@ const books = [
 
 const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
-// function reduceNames() {
-//   return books.map((elem) => elem.author.name).join(', ').concat('.');
-// }
+const reduceNames = () => books.map((elem) => elem.author.name).join(', ').concat('.');
 
-const reduceNames = () => books.reduce((acc, curr, index) => index === (books.length - 1) 
-? acc.concat(`${curr.author.name}.`) 
-: acc.concat(`${curr.author.name}, `), '');
+// const reduceNames = () => books.reduce((acc, curr, index) => index === (books.length - 1) 
+// ? acc.concat(`${curr.author.name}.`) 
+// : acc.concat(`${curr.author.name}, `), '');
 
 console.log(reduceNames());
 

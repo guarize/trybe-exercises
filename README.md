@@ -59,7 +59,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 8.2 - JavaScript ES6 - Higher Order Functions - map and filter
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.4 - JavaScript ES6 - spread operator, rest parameter, destructuring and more
-- [ ] 8.5 - Project - Zoo functions
+- [x] 8.5 - Project - Zoo functions
 
 ##### Block 9: [Asynchronous JavaScript and Promises]()
 - [ ] 9.1 - Asynchronous JavaScript and Callbacks

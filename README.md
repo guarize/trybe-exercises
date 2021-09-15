@@ -39,6 +39,8 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 5.5 - Project - Pixel Art
 - [x] 5.6 - Project - To-Do List
 - [x] 5.7 - (Bonus) Project - Guess the Color
+- [x] 5.7 - (Bonus) Project - Mystery Letter
+- [x] 5.7 - (Bonus) Project - Meme Generator
 
 ##### Block 6: [HTML and CSS: Forms, Flexbox and Responsive](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-06-html-css-forms-flexbox-and-responsive) :heavy_check_mark:
 - [x] 6.1 - HTML & CSS - Forms

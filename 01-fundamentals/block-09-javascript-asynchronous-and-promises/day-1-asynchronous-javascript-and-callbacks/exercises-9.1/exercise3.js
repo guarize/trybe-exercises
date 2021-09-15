@@ -16,12 +16,12 @@ const greet = (temperature) =>
   console.log(`Hi there! Curiosity here. Right now is ${temperature}ºC at Mars`);
 
 // creation of the sendMarsTemperature function...
-const sendMarsTemperature1 = (callback) => {
+const sendMarsTemperature = (callback) => {
   const temp = getMarsTemperature();
   setTimeout(() => {
     callback(temp);
   }, messageDelay())
 }
 
-sendMarsTemperature1(temperatureInFahrenheit);
-sendMarsTemperature1(greet);
+sendMarsTemperature(temperatureInFahrenheit);
+sendMarsTemperature(greet);

@@ -65,7 +65,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 ##### Block 9: [Asynchronous JavaScript and Promises]()
 - [x] 9.1 - Asynchronous JavaScript and Callbacks
-- [ ] 9.2 - JavaScript Promises
+- [x] 9.2 - JavaScript Promises
 - [ ] 9.3 - Project - Shopping Cart
 
 ##### Block 10: [Automated testing with Jest]()

@@ -1,0 +1,11 @@
+* {
+  font-size: 25px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+}

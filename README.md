@@ -63,13 +63,13 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 8.4 - JavaScript ES6 - spread operator, rest parameter, destructuring and more
 - [x] 8.5 - Project - Zoo functions
 
-##### Block 9: [Asynchronous JavaScript and Promises]()
+##### Block 9: [Asynchronous JavaScript and Promises](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-09-javascript-asynchronous-and-promises) :heavy_check_mark:
 - [x] 9.1 - Asynchronous JavaScript and Callbacks
 - [x] 9.2 - JavaScript Promises
-- [ ] 9.3 - Project - Shopping Cart
+- [x] 9.3 - Project - Shopping Cart
 
 ##### Block 10: [Automated testing with Jest]()
-- [ ] 10.1 - First Steps in Jest
+- [x] 10.1 - First Steps in Jest
 - [ ] 10.2 - Jest - Asynchronous Testing
 - [ ] 10.3 - Jest - Simulating behaviors
 - [ ] 10.4 - Project - Asynchronous Jest and Mocking

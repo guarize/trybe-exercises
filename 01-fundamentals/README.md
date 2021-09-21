@@ -12,5 +12,5 @@
 - [x] Block 6: HTML and CSS: Forms, Flexbox and Responsive
 - [x] Block 7: Introduction to JavaScript ES6 and Unit Tests
 - [x] Block 8: Higher Order Functions from JavaScript ES6
-- [ ] Block 9: Asynchronous JavaScript and Promises
+- [x] Block 9: Asynchronous JavaScript and Promises
 - [ ] Block 10: Automated testing with Jest

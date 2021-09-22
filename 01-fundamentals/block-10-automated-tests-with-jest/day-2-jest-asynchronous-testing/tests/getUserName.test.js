@@ -15,6 +15,8 @@ describe('Using promise syntax', () => {
   });
 });
 
+// 3 - Rewrite the test from the previous exercise, this time using async/await syntax.
+
 describe('Using async/await', () => {
   it('getUserName with ID 2 returns Paul', async () => {
     const result = await getUserName(1);

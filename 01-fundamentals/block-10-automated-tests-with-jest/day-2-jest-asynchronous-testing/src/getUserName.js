@@ -1,0 +1,20 @@
+// The following code simulates a call to the database to fetch users. The result of this search is a Promise , which is used by the method getUserName.
+
+const users = [
+  { id: 1, name: 'Mark' },
+  { id: 2, name: 'Paul' },
+];
+
+const findUserById = (id) => new Promise((resolve, reject) => {
+  const result = users.find((user) => user.id === id);
+
+  if (result) {
+    return resolve(result);
+  }
+
+  return reject(new Error(`User with ${id} not found.`));
+});
+
+const getUserName = (userId) => findUserById(userId).then((user) => user.name);
+
+module.exports = { users, findUserById, getUserName };

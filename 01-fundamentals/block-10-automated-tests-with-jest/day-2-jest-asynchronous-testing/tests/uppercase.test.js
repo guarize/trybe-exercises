@@ -1,4 +1,4 @@
-// Write a test that checks the callback of an uppercase function, which turns the letters of a word into uppercase letters. Remember to beware of false-positives in asynchronous tests.
+// 1 - Write a test that checks the callback of an uppercase function, which turns the letters of a word into uppercase letters. Remember to beware of false-positives in asynchronous tests.
 
 const uppercase = require('../src/uppercase');
 

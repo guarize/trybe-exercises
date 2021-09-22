@@ -1,3 +1,5 @@
+// The following code simulates a call to the database to fetch users. The result of this search is a Promise , which is used by the method getUserName.
+
 const users = [
   { id: 1, name: 'Mark' },
   { id: 2, name: 'Paul' },

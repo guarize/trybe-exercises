@@ -18,7 +18,7 @@ const findAnimalsByType = (type) =>
 
 const getListAnimals = (type) => findAnimalsByType(type).then((list) => list);
 
-// 6.1 - Add a function to search by animal name;
+// 5.1 - Add a function to search by animal name;
 const findAnimalsByName = (name) =>
   new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -32,6 +32,20 @@ const findAnimalsByName = (name) =>
     }, 100);
   });
 
+// 5.2 - Add a new feature to search for the age of the animals. The return should be an array of objects, but if it doesn't find any, return an error message. Write both the function and your test.
+const findAnimalsByAge = (age) =>
+  new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const animalObj = Animals.find((animal) => animal.age === age);
+
+      if (animalObj) {
+        return resolve(animalObj);
+      }
+
+      return reject(new Error('Nenhum animal com essa idade!'));
+    }, 100);
+  });
+
 const getAnimal = (name) => findAnimalsByName(name).then((animal) => animal);
 
 module.exports = {
@@ -40,4 +54,5 @@ module.exports = {
   findAnimalsByName,
   getListAnimals,
   getAnimal,
+  findAnimalsByAge,
 };

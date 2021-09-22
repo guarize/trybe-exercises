@@ -23,11 +23,12 @@ const findAnimalsByName = (name) =>
   new Promise((resolve, reject) => {
     setTimeout(() => {
       const animalObj = Animals.find((animal) => animal.name === name);
+
       if (animalObj) {
         return resolve(animalObj);
       }
 
-      return reject('Nenhum animal com esse nome!');
+      return reject(new Error('Nenhum animal com esse nome!'));
     }, 100);
   });
 

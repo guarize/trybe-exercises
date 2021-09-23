@@ -26,6 +26,8 @@ describe('#randomNum newImplementation', () => {
     expect(randomNum.number).toHaveBeenCalledWith(10, 5);
   });
 
+  // 3 - Still with the same function as in the first exercise, using the mock, create a new implementation that takes three parameters and returns its multiplication. After testing it, reset your implementation and create a new one that takes one parameter and returns its double. Make the necessary tests.
+
   it('number receives 3 param', () => {
     randomNum.number.mockReset();
     randomNum.number.mockImplementation((a, b, c) => a * b * c);

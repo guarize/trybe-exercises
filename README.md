@@ -71,7 +71,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 ##### Block 10: [Automated testing with Jest]()
 - [x] 10.1 - First Steps in Jest
 - [x] 10.2 - Jest - Asynchronous Testing
-- [ ] 10.3 - Jest - Simulating behaviors
+- [x] 10.3 - Jest - Simulating behaviors
 - [ ] 10.4 - Project - Asynchronous Jest and Mocking
 
 ## Front-end Development :hourglass_flowing_sand:

@@ -19,4 +19,13 @@ describe('testing string functions', () => {
     expect(source.firstLetter).toHaveBeenCalledTimes(1);
     expect(source.firstLetter).toHaveBeenCalledWith('string');
   });
+
+  it('concat change implementation', () => {
+    source.concat.mockImplementation((a, b, c) => a.concat(b, c));
+
+    expect(source.concat('one', 'two', 'three')).toBe('onetwothree');
+    expect(source.concat).toHaveBeenCalled();
+    expect(source.concat).toHaveBeenCalledTimes(1);
+    expect(source.concat).toHaveBeenCalledWith('one', 'two', 'three');
+  });
 });

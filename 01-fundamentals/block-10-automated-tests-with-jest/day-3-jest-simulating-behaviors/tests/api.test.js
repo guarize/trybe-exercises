@@ -1,5 +1,7 @@
 const api = require('../src/api');
 
+// 6 - Create a function that makes a request to the dog pictures api. Mocke the request and create two tests. The first should interpret that the request resolved and take the value "request success". The second should interpret that the request failed and have the value "request failed". Create as many tests as you find necessary.
+
 describe('testing requests', () => {
   api.dogApi = jest.fn();
   afterEach(api.dogApi.mockReset);

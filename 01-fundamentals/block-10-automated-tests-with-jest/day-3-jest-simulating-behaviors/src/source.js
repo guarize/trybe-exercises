@@ -4,6 +4,6 @@ const uppercase = (str) => str.toUpperCase();
 
 const firstLetter = (str) => str.charAt(0);
 
-const concat = (first, second) => first.concat(second);
+const concat = (a, b) => a.concat(b);
 
 module.exports = { number, uppercase, firstLetter, concat };

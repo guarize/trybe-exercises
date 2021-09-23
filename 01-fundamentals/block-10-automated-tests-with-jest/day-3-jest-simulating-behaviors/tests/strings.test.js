@@ -1,9 +1,11 @@
 const source = require('../src/source');
 jest.mock('../src/source');
 
+// Within the same file, create three functions. The first one should take a string and return it in uppercase. The second should also take a string and return only the first letter. The third should take two strings and concatenate them. Mock up the file. Make a new implementation for the first function, but now it must return the string in lower case. For the second function, a new implementation should return the last letter of a string. The third should take three strings and concatenate them.
+
 describe('testing string functions', () => {
   it('uppercase change implementation', () => {
-    source.uppercase.mockImplementation((str) => str.toLowerCase());
+    source.uppercase.mockImplementationOnce((str) => str.toLowerCase());
 
     expect(source.uppercase('TEST')).toBe('test');
     expect(source.uppercase).toHaveBeenCalled();

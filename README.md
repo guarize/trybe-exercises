@@ -70,7 +70,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 ##### Block 10: [Automated testing with Jest]()
 - [x] 10.1 - First Steps in Jest
-- [ ] 10.2 - Jest - Asynchronous Testing
+- [x] 10.2 - Jest - Asynchronous Testing
 - [ ] 10.3 - Jest - Simulating behaviors
 - [ ] 10.4 - Project - Asynchronous Jest and Mocking
 

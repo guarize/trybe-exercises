@@ -3,9 +3,9 @@ const { users, findUserById, getUserName } = require('../src/getUserName');
 // 2 - Using Promise syntax, make a test that checks the result of the getUserName function for the case where the user is found, and also a test for the case where the user is not found.
 
 describe('Using promise syntax', () => {
-  it('getUserName with ID 1 returns Mark', () => {
-    getUserName(1).then((data) => expect(data).toBe('Mark'));
-  });
+  it('getUserName with ID 1 returns Mark', () => (
+    getUserName(1).then((data) => expect(data).toEqual('Mark'))
+  ));
 
   it('returns an error when id is not found', () => {
     expect.assertions(1);

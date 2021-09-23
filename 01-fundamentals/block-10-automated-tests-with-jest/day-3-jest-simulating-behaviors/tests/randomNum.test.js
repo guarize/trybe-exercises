@@ -20,5 +20,25 @@ describe('#randomNum newImplementation', () => {
     expect(randomNum.number).toHaveBeenCalled();
     expect(randomNum.number).toHaveBeenCalledTimes(1);
     expect(randomNum.number).toHaveBeenCalledWith(10, 5);
-  })
-})
+  });
+
+  it('number receives 3 param', () => {
+    randomNum.number.mockReset();
+    randomNum.number.mockImplementation((a, b, c) => a * b * c);
+
+    expect(randomNum.number(10, 5, 2)).toBe(100);
+    expect(randomNum.number).toHaveBeenCalled();
+    expect(randomNum.number).toHaveBeenCalledTimes(1);
+    expect(randomNum.number).toHaveBeenCalledWith(10, 5, 2);
+  });
+
+  it('number receives 1 param', () => {
+    randomNum.number.mockReset();
+    randomNum.number.mockImplementation((a) => a * 2);
+
+    expect(randomNum.number(10)).toBe(20);
+    expect(randomNum.number).toHaveBeenCalled();
+    expect(randomNum.number).toHaveBeenCalledTimes(1);
+    expect(randomNum.number).toHaveBeenCalledWith(10);
+  });
+});

@@ -1,5 +1,7 @@
 const randomNum = require('../src/randomNum');
 
+// 1 - Create a function that generates a random number between 0 and 100. You will also create the tests for this function. Using the mock, set the default return to 10. Test whether the function was called, what it returned, and how many times it was called.
+
 describe('#randomNum', () => {
   it('test number function`s return and times it`s been called', () => {
     randomNum.number = jest.fn().mockReturnValue(10);

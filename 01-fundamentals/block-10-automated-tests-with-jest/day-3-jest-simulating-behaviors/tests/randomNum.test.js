@@ -11,6 +11,8 @@ describe('#randomNum', () => {
   });
 });
 
+// 2 - With the same function as in the previous exercise, using mock, create a new implementation, which should receive two parameters and return the division of the first by the second. This implementation should occur only once. Make the necessary tests.
+
 describe('#randomNum newImplementation', () => {
   it('number receives 2 param', () => {
     randomNum.number.mockReset();

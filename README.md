@@ -4,7 +4,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 >"The program has more than 1,500 hours of online classes, covering introduction to software development, front-end, back-end, computer science, software engineering, agile methodologies, and behavioral skills."
 
-## Web Development Fundamentals :hourglass_flowing_sand:
+## Web Development Fundamentals :heavy_check_mark:
 
 ##### Block 1: [Unix, Bash and Shell Script](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-01-unix-and-shell/dia-03-unix-e-bash-part-1) :heavy_check_mark:
 - [x] 1.3 - Introduction - Unix & Shell
@@ -68,11 +68,11 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 9.2 - JavaScript Promises
 - [x] 9.3 - Project - Shopping Cart
 
-##### Block 10: [Automated testing with Jest]()
+##### Block 10: [Automated testing with Jest]() :heavy_check_mark:
 - [x] 10.1 - First Steps in Jest
 - [x] 10.2 - Jest - Asynchronous Testing
 - [x] 10.3 - Jest - Simulating behaviors
-- [ ] 10.4 - Project - Asynchronous Jest and Mocking
+- [x] 10.4 - Project - Asynchronous Jest and Mocking
 
 ## Front-end Development :hourglass_flowing_sand:
 

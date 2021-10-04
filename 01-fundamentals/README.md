@@ -1,4 +1,4 @@
-# Web Development Fundamentals
+# Web Development Fundamentals :heavy_check_mark:
 
 ### In this block I learned the fundamentals to start my career in Web Development.
 
@@ -13,4 +13,4 @@
 - [x] Block 7: Introduction to JavaScript ES6 and Unit Tests
 - [x] Block 8: Higher Order Functions from JavaScript ES6
 - [x] Block 9: Asynchronous JavaScript and Promises
-- [ ] Block 10: Automated testing with Jest
+- [x] Block 10: Automated testing with Jest

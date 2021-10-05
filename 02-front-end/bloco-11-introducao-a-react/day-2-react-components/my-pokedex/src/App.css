@@ -2,22 +2,32 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  font-family: "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .pokedex {
   display: flex;
-  width: 1000px;
   flex-wrap: wrap;
+  max-width: 1200px;
   margin: auto;
 }
 
 .pokemon {
-  border: 1px solid grey;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 10px;
-  width: 200px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   flex: 1;
+  border-radius: 15px;
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 10px;
+  min-width: 20%;
   transition: all 0.5s ease-in-out;
 }
 

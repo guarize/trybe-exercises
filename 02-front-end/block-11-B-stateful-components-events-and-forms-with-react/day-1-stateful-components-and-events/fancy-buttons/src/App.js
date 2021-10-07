@@ -29,27 +29,35 @@ class App extends React.Component {
     }));
   };
 
+  buttonColorChanger = (num) => num % 2 === 0 ? 'green' : 'red';
+
   render() {
+
+    const { firstBtnClicks, secondBtnClicks, thirdBtnClicks } = this.state;
+
     return (
       <div className='App'>
         <div>
           <button
-            onClick={this.handleFirstBtn}
-            className='Buttons first-button'
+            onClick={ this.handleFirstBtn }
+            className='Buttons'
+            style={{backgroundColor: this.buttonColorChanger(firstBtnClicks) }}
           >
-            {this.state.firstBtnClicks}
+            First | { firstBtnClicks }
           </button>
           <button
-            onClick={this.handleSecondBtn}
-            className='Buttons second-button'
+            onClick={ this.handleSecondBtn }
+            className='Buttons'
+            style={{backgroundColor: this.buttonColorChanger(secondBtnClicks) }}
           >
-            {this.state.secondBtnClicks}
+            Second | { secondBtnClicks }
           </button>
           <button
             onClick={this.handleThirdBtn}
-            className='Buttons third-button'
+            className='Buttons'
+            style={{backgroundColor: this.buttonColorChanger(thirdBtnClicks) }}
           >
-            {this.state.thirdBtnClicks}
+            Third | { thirdBtnClicks }
           </button>
         </div>
       </div>

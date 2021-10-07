@@ -21,15 +21,3 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
 }
-
-.first-button {
-  background-color: #912f3c;
-}
-
-.second-button {
-  background-color: rgb(144, 144, 253);
-}
-
-.third-button {
-  background-color: rgb(0, 223, 0);
-}

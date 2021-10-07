@@ -44,8 +44,8 @@ class Pokedex extends React.Component {
         <div className='pokedex'>
           {
             <Pokemon
-              key={pokemons[pokemonDisplay].id}
-              pokemon={pokemons[pokemonDisplay]}
+              key={ pokemons[pokemonDisplay].id }
+              pokemon={ pokemons[pokemonDisplay] }
             />
           }
         </div>

@@ -16,6 +16,25 @@ body {
   margin-bottom: 50px;
 }
 
+.fire, .psychic {
+  margin: 10px;
+  width: 90px;
+  padding: 6px 7px;
+  font-size: 18px;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.fire {
+  background-color: #F08030;
+}
+
+.psychic {
+  background-color: #F85888;
+}
+
 .pokedex {
   display: flex;
   flex-wrap: wrap;
@@ -34,6 +53,7 @@ body {
   border-radius: 15px;
   text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .next-btn:hover {

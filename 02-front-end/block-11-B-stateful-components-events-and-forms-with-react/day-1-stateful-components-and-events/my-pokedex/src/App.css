@@ -12,11 +12,33 @@ body {
   color: white;
 }
 
+.pokedex-container {
+  margin-bottom: 50px;
+}
+
 .pokedex {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1200px;
+  width: 300px;
+  height: 300px;
   margin: auto;
+}
+
+.next-btn {
+  padding: 5px 17px;
+  font-size: 18px;
+  margin: 30px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  transform: scale(102%);
+  background-color: rgb(178, 96, 255);
 }
 
 .pokemon {

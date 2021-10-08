@@ -14,51 +14,93 @@ body {
 
 .pokedex-container {
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
-.fire, .psychic {
-  margin: 10px;
-  width: 90px;
-  padding: 6px 7px;
-  font-size: 18px;
-  color: white;
-  border-radius: 3px;
-  border: none;
-  cursor: pointer;
-}
-
-.fire {
-  background-color: #F08030;
-}
-
-.psychic {
-  background-color: #F85888;
-}
 
 .pokedex {
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
+  width: 1200px;
   height: 300px;
   margin: auto;
 }
 
-.next-btn {
-  padding: 5px 17px;
+.next-btn, .all-btn, .type-button {
+  padding: 10px 17px;
   font-size: 18px;
-  margin: 30px;
-  background-color: blueviolet;
-  color: white;
+  margin: 10px auto;
+  width: 200px;  color: white;
   border: none;
   border-radius: 15px;
   text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  color: #212121;
+  font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
-.next-btn:hover {
+.type-button {
+  margin: 20px;
+}
+
+.type-button:hover {
   transform: scale(102%);
-  background-color: rgb(178, 96, 255);
+}
+
+.next-btn {
+  background-color: blueviolet;
+}
+
+.next-btn:disabled {
+  cursor: not-allowed;
+  background-color: grey;
+}
+
+.next-btn:disabled:hover {
+  transform: scale(100%);
+}
+
+.next-btn:hover, .all-btn:hover {
+  transform: scale(102%);
+}
+
+.all-btn {
+  background-color: blueviolet;
+}
+
+.Bug {
+  background-color: #A8B820;
+}
+
+.Fire {
+  background-color: #F08030;
+}
+
+.Electric {
+  background-color: #F8D030;
+}
+
+.Poison {
+  background-color: #A040A0;
+}
+
+.Psychic {
+  background-color: #F85888;
+}
+
+.Normal {
+  background-color: #A8A878;
+}
+
+.Dragon {
+  background-color: #7038F8;
+}
+
+.selected {
+  border-radius: 1px solid green;
 }
 
 .pokemon {
@@ -67,12 +109,12 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  flex: 1;
   border-radius: 15px;
   border: none;
   margin: 10px;
   padding: 15px;
-  min-width: 20%;
+  margin: auto;
+  width: 300px;
   transition: all 0.5s ease-in-out;
   color: white;
   font-weight: 700;
@@ -86,7 +128,5 @@ body {
 
 .pokemon:hover {
   transform: scale(105%);
-  color: #212121;
-  background-color: rgb(109, 255, 109);
   border: none;
 }

@@ -2,53 +2,78 @@ import React from 'react';
 import Pokemon from './Pokemon.jsx';
 
 class Pokedex extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       pokemonDisplay: 0,
+      pokemonList: this.props.pokemons,
+      disabledBtn: false,
     };
   }
 
   nextPokemon = () => {
-    this.setState((previous, props) => {
-      const { pokemons } = props;
+    const { pokemonList } = this.state;
 
+    this.setState((prev, _props) => {
       return {
         pokemonDisplay:
-          previous.pokemonDisplay === pokemons.length - 1
-            ? 0
-            : previous.pokemonDisplay + 1,
+          prev.pokemonDisplay === pokemonList.length - 1 ? 0 : prev.pokemonDisplay + 1,
       };
     });
   };
 
-  fire = () => {
-    return;
+  pokemonTypes = (type) => {
+    const { pokemons } = this.props;
+    const specificType = pokemons.filter((pokemon) => pokemon.type === type);
+
+    this.setState({
+      pokemonDisplay: 0,
+      pokemonList: specificType,
+      disabledBtn: specificType.length === 1 ? true : false,
+    });
   };
 
+  allPokemons = () => {
+    this.setState({
+      pokemonDisplay: 0,
+      pokemonList: this.props.pokemons,
+    })
+  }
+  
   render() {
-    const { pokemons } = this.props;
-    const { pokemonDisplay } = this.state;
-    console.log(pokemonDisplay);
-
+    const { 
+      pokemonTypes,
+      allPokemons, 
+      nextPokemon, 
+      props: {pokemons}, 
+      state: { pokemonDisplay, pokemonList, disabledBtn } 
+    } = this;
+    console.log(disabledBtn);
+    const noDuplicates = [...new Set(pokemons.map((poke) => poke.type))]
+    
     return (
       <div className='pokedex-container'>
         <div className='elements-container'>
-          <button className='fire'>Fire</button>
-          <button className='psychic'>Psychic</button>
+          {noDuplicates.map((pokemon, i) => (
+            <button onClick={ () => pokemonTypes(pokemon) } key={ i } className={`type-button ${pokemon}`}>
+              {pokemon}
+            </button>
+          ))}
         </div>
-        <button onClick={this.nextPokemon} className='next-btn'>
-          Next
-        </button>
         <div className='pokedex'>
           {
             <Pokemon
-              key={ pokemons[pokemonDisplay].id }
-              pokemon={ pokemons[pokemonDisplay] }
+              pokemon={ pokemonList[pokemonDisplay] }
             />
           }
         </div>
+        <button onClick={ nextPokemon } disabled={ disabledBtn } className='next-btn'>
+          Next
+        </button>
+        <button onClick={ allPokemons } className='all-btn'>
+          All
+        </button>
       </div>
     );
   }

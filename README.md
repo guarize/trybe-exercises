@@ -76,7 +76,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 ## Front-end Development :hourglass_flowing_sand:
 
-##### Block 11-A: [Introduction to React]()
+##### Block 11-A: [Introduction to React]() :heavy_check_mark:
 - [x] 11-A.1 - Introduction - Front-end
 - [x] 11-A.1 - Introduction - React
 - [x] 11-A.1 - React's 'Hello, world!'!
@@ -84,7 +84,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 11-A.3 - Project - Movie Cards Library
 
 ##### Block 11-B: [Stateful Components, Events and Forms with React]()
-- [ ] 11-B.1 - Components with state and events
+- [x] 11-B.1 - Components with state and events
 - [ ] 11-B.2 - Forms in React
 - [ ] 11-B.3 - Project - Movie Cards Library Stateful
 

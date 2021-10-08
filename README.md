@@ -76,173 +76,173 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 ## Front-end Development :hourglass_flowing_sand:
 
-##### Block 11: [Introduction to React]()
-- [ ] 11.1 - Introduction - Front-end
-- [ ] 11.1 - Introduction - React
-- [ ] 11.1 - React's 'Hello, world!'!
-- [ ] 11.2 - React Components
-- [ ] 11.3 - Project - Movie Cards Library
+##### Block 11-A: [Introduction to React]()
+- [x] 11-A.1 - Introduction - Front-end
+- [x] 11-A.1 - Introduction - React
+- [x] 11-A.1 - React's 'Hello, world!'!
+- [x] 11-A.2 - React Components
+- [x] 11-A.3 - Project - Movie Cards Library
 
-##### Block 12: [Stateful Components, Events and Forms with React]()
-- [ ] 12.1 - Components with state and events
-- [ ] 12.2 - Forms in React
-- [ ] 12.3 - Project - Movie Cards Library Stateful
+##### Block 11-B: [Stateful Components, Events and Forms with React]()
+- [ ] 11-B.1 - Components with state and events
+- [ ] 11-B.2 - Forms in React
+- [ ] 11-B.3 - Project - Movie Cards Library Stateful
 
-##### Block 13: [Component Lifecycle and React Router]()
-- [ ] 13.1 - Component life cycle
-- [ ] 13.2 - React Router
-- [ ] 13.3 - Project - Movie Cards Library CRUD
+##### Block 12: [Component Lifecycle and React Router]()
+- [ ] 12.1 - Component life cycle
+- [ ] 12.2 - React Router
+- [ ] 12.3 - Project - Movie Cards Library CRUD
 
-##### Block 14: [Agile Methodologies]()
-- [ ] 14.1 - Agile Methodologies
-- [ ] 14.2 - Project - Frontend Online Store
+##### Block 13: [Agile Methodologies]()
+- [ ] 13.1 - Agile Methodologies
+- [ ] 13.2 - Project - Frontend Online Store
 
-##### Block 15: [Automated testing with React Testing Library]()
-- [ ] 15.1 - RTL - First Steps
-- [ ] 15.2 - RTL - Mocks and Inputs
-- [ ] 15.3 - RTL - Testing React Router
-- [ ] 15.4 - Project - Testing in React
+##### Block 14: [Automated testing with React Testing Library]()
+- [ ] 14.1 - RTL - First Steps
+- [ ] 14.2 - RTL - Mocks and Inputs
+- [ ] 14.3 - RTL - Testing React Router
+- [ ] 14.4 - Project - Testing in React
 
-##### Block 16: [State Management with Redux]()
-- [ ] 16.1 - Introduction to Redux - The Overall State of the Application
-- [ ] 16.2 - Using Redux in React
-- [ ] 16.3 - Using Redux in React - In Practice
-- [ ] 16.4 - Using Redux in React - Asynchronous Actions
-- [ ] 16.5 - Synchronous testing with React-Redux
-- [ ] 16.6 - Project - Data filter table
+##### Block 15: [State Management with Redux]()
+- [ ] 15.1 - Introduction to Redux - The Overall State of the Application
+- [ ] 15.2 - Using Redux in React
+- [ ] 15.3 - Using Redux in React - In Practice
+- [ ] 15.4 - Using Redux in React - Asynchronous Actions
+- [ ] 15.5 - Synchronous testing with React-Redux
+- [ ] 15.6 - Project - Data filter table
 
-##### Block 17: Project Trivia Game
-- [ ] 17.1 - Project Trivia Game
+##### Block 16: Project Trivia Game
+- [ ] 16.1 - Project Trivia Game
 
-##### Block 18: [Context API and React Hooks]()
-- [ ] 18.1 - React Context API
-- [ ] 18.2 - React Hooks - useState and useContext
-- [ ] 18.3 - React Hooks - useEffect and custom Hooks
-- [ ] 18.4 - Project - StarWars Datatable with Context API and Hooks
+##### Block 17: [Context API and React Hooks]()
+- [ ] 17.1 - React Context API
+- [ ] 17.2 - React Hooks - useState and useContext
+- [ ] 17.3 - React Hooks - useEffect and custom Hooks
+- [ ] 17.4 - Project - StarWars Datatable with Context API and Hooks
 
-##### Block 19: Project - Recipes App
-- [ ] 19.1 - Project - Recipes App
+##### Block 18: Project - Recipes App
+- [ ] 18.1 - Project - Recipes App
 
 ## Back-end Development :hourglass_flowing_sand:
 
-##### Block 20: [Introduction to SQL]()
-- [ ] 20.1 - Introduction - Back-end
-- [ ] 20.1 - Introduction - Relational databases
-- [ ] 20.1 - SQL database
-- [ ] 20.2 - Finding Data in a Database
-- [ ] 20.3 - Filtering data in a specific way
-- [ ] 20.4 - Manipulating Tables
-- [ ] 20.5 - Project - All For One
+##### Block 19: [Introduction to SQL]()
+- [ ] 19.1 - Introduction - Back-end
+- [ ] 19.1 - Introduction - Relational databases
+- [ ] 19.1 - SQL database
+- [ ] 19.2 - Finding Data in a Database
+- [ ] 19.3 - Filtering data in a specific way
+- [ ] 19.4 - Manipulating Tables
+- [ ] 19.5 - Project - All For One
 
-##### Block 21: [SQL Functions, Joins and Subqueries]()
-- [ ] 21.1 - Most commonly used functions in SQL
-- [ ] 21.2 - Unraveling JOINs and UNIONs
-- [ ] 21.3 - Stored Routines & Subqueries
-- [ ] 21.4 - Project - Vocabulary Booster
+##### Block 20: [SQL Functions, Joins and Subqueries]()
+- [ ] 20.1 - Most commonly used functions in SQL
+- [ ] 20.2 - Unraveling JOINs and UNIONs
+- [ ] 20.3 - Stored Routines & Subqueries
+- [ ] 20.4 - Project - Vocabulary Booster
 
-##### Block 22: [Database Modeling and Normalization]()
-- [ ] 22.1 - Turning ideas into a database model
-- [ ] 22.2 - Normalization, Standard Shapes and Dumps
-- [ ] 22.3 - Turning ideas into a database model - Part 2
-- [ ] 22.4 - Project - One For All
+##### Block 21: [Database Modeling and Normalization]()
+- [ ] 21.1 - Turning ideas into a database model
+- [ ] 21.2 - Normalization, Standard Shapes and Dumps
+- [ ] 21.3 - Turning ideas into a database model - Part 2
+- [ ] 21.4 - Project - One For All
 
-##### Block 23: [Introduction to MongoDB]()
-- [ ] 23.1 - Introduction - NoSQL
-- [ ] 23.1 - MongoDB - Introduction
-- [ ] 23.2 - Filter Operators
-- [ ] 23.3 - Project - Data Flights
+##### Block 22: [Introduction to MongoDB]()
+- [ ] 22.1 - Introduction - NoSQL
+- [ ] 22.1 - MongoDB - Introduction
+- [ ] 22.2 - Filter Operators
+- [ ] 22.3 - Project - Data Flights
 
-##### Block 24: [MongoDB: Simple and Complex Updates]()
-- [ ] 24.1 - Simple Updates
-- [ ] 24.2 - Complex Updates - Arrays - Part 1
-- [ ] 24.3 - Complex Updates - Arrays - Part 2
-- [ ] 24.4 - Project - Commerce
+##### Block 23: [MongoDB: Simple and Complex Updates]()
+- [ ] 23.1 - Simple Updates
+- [ ] 23.2 - Complex Updates - Arrays - Part 1
+- [ ] 23.3 - Complex Updates - Arrays - Part 2
+- [ ] 23.4 - Project - Commerce
 
-##### Block 25: [MongoDB: Aggregation Framework]()
-- [ ] 25.1 - Aggregation Framework - Part 1
-- [ ] 25.2 - Aggregation Framework - Part 2
-- [ ] 25.3 - Project - Aggregations
+##### Block 24: [MongoDB: Aggregation Framework]()
+- [ ] 24.1 - Aggregation Framework - Part 1
+- [ ] 24.2 - Aggregation Framework - Part 2
+- [ ] 24.3 - Project - Aggregations
 
-##### Block 26: [Introduction to Web Development with NodeJS]()
-- [ ] 26.1 - Intro - NodeJS
-- [ ] 26.1 - NodeJS - Introduction
-- [ ] 26.2 - NodeJS - Asynchronous Flow
-- [ ] 26.3 - Testing with NodeJS
-- [ ] 26.4 - Express: HTTP with Node.js
-- [ ] 26.5 - Practicing Express
-- [ ] 26.6 - Project - Talker manager
+##### Block 25: [Introduction to Web Development with NodeJS]()
+- [ ] 25.1 - Intro - NodeJS
+- [ ] 25.1 - NodeJS - Introduction
+- [ ] 25.2 - NodeJS - Asynchronous Flow
+- [ ] 25.3 - Testing with NodeJS
+- [ ] 25.4 - Express: HTTP with Node.js
+- [ ] 25.5 - Practicing Express
+- [ ] 25.6 - Project - Talker manager
 
-##### Block 27: [NodeJS: Service Layer, Rest and Restful Architecture]()
-- [ ] 27.1 - Introduction - Software Architecture
-- [ ] 27.1 - Software Architecture - Model Layer
-- [ ] 27.2 - Software Architecture - Controller and Service Layer
-- [ ] 27.3 - Web Architecture - Rest and Restful
-- [ ] 27.4 - Software Architecture - Testing the Layers
-- [ ] 27.5 - Project - Store Manager
+##### Block 26: [NodeJS: Service Layer, Rest and Restful Architecture]()
+- [ ] 26.1 - Introduction - Software Architecture
+- [ ] 26.1 - Software Architecture - Model Layer
+- [ ] 26.2 - Software Architecture - Controller and Service Layer
+- [ ] 26.3 - Web Architecture - Rest and Restful
+- [ ] 26.4 - Software Architecture - Testing the Layers
+- [ ] 26.5 - Project - Store Manager
 
-##### Block 28: [Authentication and File Upload]()
-- [ ] 28.1 - NodeJS - JWT - (JSON Web Token)
-- [ ] 28.2 - NodeJS - File Upload with Multer
-- [ ] 28.3 - NodeJS - Testing APIs with Integration Tests
-- [ ] 28.4 - Project - Cookmaster
+##### Block 27: [Authentication and File Upload]()
+- [ ] 27.1 - NodeJS - JWT - (JSON Web Token)
+- [ ] 27.2 - NodeJS - File Upload with Multer
+- [ ] 27.3 - NodeJS - Testing APIs with Integration Tests
+- [ ] 27.4 - Project - Cookmaster
 
-##### Block 29: [Deployment]()
-- [ ] 29.1 - Introduction - Deploy
-- [ ] 29.1 - Infrastructure - Deploy with Heroku
-- [ ] 29.2 - Deploy - Process Managers
-- [ ] 29.3 - Project - Stranger Things
+##### Block 28: [Deployment]()
+- [ ] 28.1 - Introduction - Deploy
+- [ ] 28.1 - Infrastructure - Deploy with Heroku
+- [ ] 28.2 - Deploy - Process Managers
+- [ ] 28.3 - Project - Stranger Things
 
-##### Block 30: [Architecture: SOLID and ORM]()
-- [ ] 30.1 - Architecture - SOLID Principles
-- [ ] 30.2 - ORM - Application Database Interface
-- [ ] 30.3 - ORM - Associations
-- [ ] 30.4 - Good practices in test writing
-- [ ] 30.5 - Project - Blogs API
+##### Block 29: [Architecture: SOLID and ORM]()
+- [ ] 29.1 - Architecture - SOLID Principles
+- [ ] 29.2 - ORM - Application Database Interface
+- [ ] 29.3 - ORM - Associations
+- [ ] 29.4 - Good practices in test writing
+- [ ] 29.5 - Project - Blogs API
 
-##### Block 31: [Sockets]()
-- [ ] 31.1 - Sockets - TCP/UDP & NET
-- [ ] 31.2 - Sockets - Socket.io
-- [ ] 31.3 - Project - Webchat
+##### Block 30: [Sockets]()
+- [ ] 30.1 - Sockets - TCP/UDP & NET
+- [ ] 30.2 - Sockets - Socket.io
+- [ ] 30.3 - Project - Webchat
 
-##### Block 32: [Project Trybeer II]()
-- [ ] 32.1 - Project - Trybeer v2
+##### Block 31: [Project Trybeer II]()
+- [ ] 31.1 - Project - Trybeer v2
 
 ## Computer Science :hourglass_flowing_sand:
 
-##### Block 33: [Computer Architecture and Networking]()
-- [ ] 33.1 - Introduction - Computer Science
-- [ ] 33.2 - Computer Architecture
-- [ ] 33.3 - Network Architecture
-- [ ] 33.4 - Computer networking, tools and security
-- [ ] 33.5 - Project - Exploring the Protocols
+##### Block 32: [Computer Architecture and Networking]()
+- [ ] 32.1 - Introduction - Computer Science
+- [ ] 32.2 - Computer Architecture
+- [ ] 32.3 - Network Architecture
+- [ ] 32.4 - Computer networking, tools and security
+- [ ] 32.5 - Project - Exploring the Protocols
 
-##### Block 34: [Introduction to Python and Web Data Scraping]()
-- [ ] 34.1 - Learning Python
-- [ ] 34.2 - Data Input and Output
-- [ ] 34.3 - Data Scraping
-- [ ] 34.4 - Tests
-- [ ] 34.5 - Project - Tech news
+##### Block 33: [Introduction to Python and Web Data Scraping]()
+- [ ] 33.1 - Learning Python
+- [ ] 33.2 - Data Input and Output
+- [ ] 33.3 - Data Scraping
+- [ ] 33.4 - Tests
+- [ ] 33.5 - Project - Tech news
 
-##### Block 35: [Object-Oriented Programming and Project Patterns]()
-- [ ] 35.1 - Introduction to object-oriented programming
-- [ ] 35.2 - Inheritance, Composition, and Interfaces
-- [ ] 35.3 - Project Standards
-- [ ] 35.4 - Project - Stock Reports
+##### Block 34: [Object-Oriented Programming and Project Patterns]()
+- [ ] 34.1 - Introduction to object-oriented programming
+- [ ] 34.2 - Inheritance, Composition, and Interfaces
+- [ ] 34.3 - Project Standards
+- [ ] 34.4 - Project - Stock Reports
 
-##### Block 36: [Algorithms and Data Structure]()
-- [ ] 36.1 - Algorithm Complexity
-- [ ] 36.2 - Recursion and Problem-Solving Strategies
-- [ ] 36.3 - Sorting and searching algorithms
-- [ ] 36.4 - Project - Algorithms
+##### Block 35: [Algorithms and Data Structure]()
+- [ ] 35.1 - Algorithm Complexity
+- [ ] 35.2 - Recursion and Problem-Solving Strategies
+- [ ] 35.3 - Sorting and searching algorithms
+- [ ] 35.4 - Project - Algorithms
 
-##### Block 37: [Data Structures: Hash and Set]()
-- [ ] 37.1 - Arrays
-- [ ] 37.2 - Hashmap and Dict
-- [ ] 37.3 - Set
-- [ ] 37.4 - Project - Restaurant Orders
+##### Block 36: [Data Structures: Hash and Set]()
+- [ ] 36.1 - Arrays
+- [ ] 36.2 - Hashmap and Dict
+- [ ] 36.3 - Set
+- [ ] 36.4 - Project - Restaurant Orders
 
-##### Block 38: [Data Structures: Stacks, Rows, and Lists]()
-- [ ] 38.1 - Nodes and Linked Lists
-- [ ] 38.2 - Deck
-- [ ] 38.3 - Cells
-- [ ] 38.4 - Project - TING - Trybe Is Not Google
+##### Block 37: [Data Structures: Stacks, Rows, and Lists]()
+- [ ] 37.1 - Nodes and Linked Lists
+- [ ] 37.2 - Deck
+- [ ] 37.3 - Cells
+- [ ] 37.4 - Project - TING - Trybe Is Not Google

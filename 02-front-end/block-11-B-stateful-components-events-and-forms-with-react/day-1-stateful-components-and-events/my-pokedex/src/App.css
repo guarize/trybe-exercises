@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #212121;
+  color: white;
+}
+
+.pokedex-container {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+}
+
+.next-btn, .all-btn, .type-button {
+  padding: 10px 17px;
+  font-size: 18px;
+  margin: 10px auto;
+  width: 200px;  color: white;
+  border: none;
+  border-radius: 15px;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #212121;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.type-button {
+  margin: 20px;
+}
+
+.type-button:hover {
+  transform: scale(102%);
+}
+
+.next-btn {
+  background-color: blueviolet;
+}
+
+.next-btn:disabled {
+  cursor: not-allowed;
+  background-color: grey;
+}
+
+.next-btn:disabled:hover {
+  transform: scale(100%);
+}
+
+.next-btn:hover, .all-btn:hover {
+  transform: scale(102%);
+}
+
+.all-btn {
+  background-color: blueviolet;
+}
+
+.Bug {
+  background-color: #A8B820;
+}
+
+.Fire {
+  background-color: #F08030;
+}
+
+.Electric {
+  background-color: #F8D030;
+}
+
+.Poison {
+  background-color: #A040A0;
+}
+
+.Psychic {
+  background-color: #F85888;
+}
+
+.Normal {
+  background-color: #A8A878;
+}
+
+.Dragon {
+  background-color: #7038F8;
+}
+
+.selected {
+  border-radius: 1px solid green;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  border: none;
+  margin: 10px;
+  padding: 15px;
+  margin: auto;
+  width: 300px;
+  transition: all 0.5s ease-in-out;
+  color: white;
+  font-weight: 700;
+  background-color: #2E2E2E;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pokemon img {
+  height: 100px;
+}
+
+.pokemon:hover {
+  transform: scale(105%);
+  border: none;
+}

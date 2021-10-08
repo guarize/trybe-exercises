@@ -1,6 +1,18 @@
 import React from 'react';
-
+import LoginPassword from './LoginPassword';
 class Forms extends React.Component {
+
+  constructor() {
+    super()
+
+    this.state = {
+      checkbox: false,
+      files: '',
+      login: '',
+      password: '',
+    }
+  }
+
   handleChange = ({ target }) => {
     const { name } = target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -13,20 +25,7 @@ class Forms extends React.Component {
   render() {
     return (
       <div className="forms">
-        <fieldset>
-          <input
-            onChange={this.handleChange}
-            className="form-group"
-            type="text"
-            name="login"
-          />
-          <input
-            onChange={this.handleChange}
-            className="form-group"
-            type="password"
-            name="password"
-          />
-        </fieldset>
+        <LoginPassword value={this.state} handleChange={this.handleChange} />
         <input onChange={this.handleChange} type="checkbox" name="checkbox" />
         <input onChange={this.handleChange} type="file" name="files" />
       </div>

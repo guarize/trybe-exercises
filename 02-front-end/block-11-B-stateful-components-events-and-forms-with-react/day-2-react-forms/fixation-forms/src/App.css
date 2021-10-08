@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background-color:#212121;
+  color: white;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.form-group {
+  background-color: white;
+  width: 250px;
+  height: 40px;
+  margin: 20px;
+  border: none;
+  padding-left: 7px;
+  font-size: 18px;
+}

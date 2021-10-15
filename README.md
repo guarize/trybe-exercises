@@ -85,8 +85,8 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 ##### Block 11-B: [Stateful Components, Events and Forms with React]()
 - [x] 11-B.1 - Components with state and events
-- [ ] 11-B.2 - Forms in React
-- [ ] 11-B.3 - Project - Movie Cards Library Stateful
+- [x] 11-B.2 - Forms in React
+- [x] 11-B.3 - Project - Movie Cards Library Stateful
 
 ##### Block 12: [Component Lifecycle and React Router]()
 - [ ] 12.1 - Component life cycle

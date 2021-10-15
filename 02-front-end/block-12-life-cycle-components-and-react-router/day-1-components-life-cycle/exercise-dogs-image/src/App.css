@@ -1,0 +1,23 @@
+.main-container {
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog-image {
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 500px;
+}
+
+.dogs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.loading {
+  color: white;
+  font-size: 22px;
+}

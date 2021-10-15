@@ -89,7 +89,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 11-B.3 - Project - Movie Cards Library Stateful
 
 ##### Block 12: [Component Lifecycle and React Router]()
-- [ ] 12.1 - Component life cycle
+- [x] 12.1 - Component life cycle
 - [ ] 12.2 - React Router
 - [ ] 12.3 - Project - Movie Cards Library CRUD
 

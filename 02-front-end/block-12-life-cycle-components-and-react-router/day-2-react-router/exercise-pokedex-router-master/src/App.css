@@ -130,3 +130,8 @@ body {
   transform: scale(105%);
   border: none;
 }
+
+.router-link {
+  color: blueviolet;
+  text-decoration: none;
+}

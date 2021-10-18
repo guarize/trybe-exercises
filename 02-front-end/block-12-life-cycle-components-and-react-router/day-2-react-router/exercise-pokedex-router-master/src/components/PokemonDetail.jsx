@@ -6,9 +6,28 @@ class PokemonDetail extends React.Component {
   render() {
     const { id } = this.props.match.params;
     const { pokemons } = this.props;
-    const pokemonWithId = pokemons.find((poke) => poke.id === Number(id));
-    console.log(pokemonWithId);
-    return <div>Olá</div>;
+    const pokemon = pokemons.find((poke) => poke.id === Number(id));
+    const { foundAt, summary } = pokemon;
+    console.log(foundAt);
+    return !pokemon ? (
+      <Redirect to="/" />
+    ) : (
+      <div className="App">
+        <Pokemon pokemon={pokemon} />
+        <div className="summary">
+          <h3>Summary</h3>
+          <p>{summary}</p>
+        </div>
+        <div className="location">
+          {foundAt.map(({ location, map }) => (
+            <div key={location} className="location-element" >
+              <h3>{location}</h3>
+              <img src={map} alt="pokemon location" />
+            </div>
+          ))}
+        </div>
+      </div>
+    );
   }
 }
 

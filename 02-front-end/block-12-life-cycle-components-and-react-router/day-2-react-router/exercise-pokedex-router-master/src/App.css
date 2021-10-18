@@ -1,4 +1,5 @@
 .App {
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -131,7 +132,30 @@ body {
   border: none;
 }
 
+h3 {
+  color: blueviolet;
+  font-size: 23px;
+}
+
 .router-link {
   color: blueviolet;
   text-decoration: none;
+}
+
+.location {
+  width: 1000px;
+  max-height: 1000px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.location img {
+  width: 400px;
+}
+
+.location-element {
+  margin: 0 50px;
 }

@@ -18,7 +18,9 @@ class Pokedex extends React.Component {
     this.setState((prev, _props) => {
       return {
         pokemonDisplay:
-          prev.pokemonDisplay === pokemonList.length - 1 ? 0 : prev.pokemonDisplay + 1,
+          prev.pokemonDisplay === pokemonList.length - 1
+            ? 0
+            : prev.pokemonDisplay + 1,
       };
     });
   };
@@ -38,43 +40,51 @@ class Pokedex extends React.Component {
     this.setState({
       pokemonDisplay: 0,
       pokemonList: this.props.pokemons,
-    })
-  }
-  
+    });
+  };
+
   render() {
-    const { 
+    const {
       pokemonTypes,
-      allPokemons, 
-      nextPokemon, 
-      props: {pokemons}, 
-      state: { pokemonDisplay, pokemonList, disabledBtn } 
+      allPokemons,
+      nextPokemon,
+      props: { pokemons },
+      state: { pokemonDisplay, pokemonList, disabledBtn },
     } = this;
-    console.log(disabledBtn);
-    const noDuplicates = [...new Set(pokemons.map((poke) => poke.type))]
-    
+    const noDuplicates = [...new Set(pokemons.map((poke) => poke.type))];
+
     return (
-      <div className='pokedex-container'>
-        <div className='elements-container'>
-          {noDuplicates.map((pokemon, i) => (
-            <button onClick={ () => pokemonTypes(pokemon) } key={ i } className={`type-button ${pokemon}`}>
-              {pokemon}
+      <>
+        <h1>Pokedex</h1>
+        <div className="pokedex">
+          <div className="pokedex-container">
+            <div className="elements-container">
+              {noDuplicates.map((pokemon, i) => (
+                <button
+                  onClick={() => pokemonTypes(pokemon)}
+                  key={i}
+                  className={`type-button ${pokemon}`}
+                >
+                  {pokemon}
+                </button>
+              ))}
+            </div>
+            <div className="pokedex">
+              {<Pokemon pokemon={pokemonList[pokemonDisplay]} />}
+            </div>
+            <button
+              onClick={nextPokemon}
+              disabled={disabledBtn}
+              className="next-btn"
+            >
+              Next
             </button>
-          ))}
+            <button onClick={allPokemons} className="all-btn">
+              All
+            </button>
+          </div>
         </div>
-        <div className='pokedex'>
-          {
-            <Pokemon
-              pokemon={ pokemonList[pokemonDisplay] }
-            />
-          }
-        </div>
-        <button onClick={ nextPokemon } disabled={ disabledBtn } className='next-btn'>
-          Next
-        </button>
-        <button onClick={ allPokemons } className='all-btn'>
-          All
-        </button>
-      </div>
+      </>
     );
   }
 }

@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #212121;
   color: white;
+  margin-top: 100px;
 }
 
 .pokedex-container {
@@ -133,13 +134,13 @@ body {
 }
 
 h3 {
-  color: blueviolet;
   font-size: 23px;
 }
 
 .router-link {
   color: blueviolet;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .location {
@@ -158,4 +159,36 @@ h3 {
 
 .location-element {
   margin: 0 50px;
+}
+
+.nav-bar {
+  display: block;
+  position: fixed;
+  top: 0;
+  font-size: 25px;
+  width: 100vw;
+  background-color: #2E2E2E;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 50px;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar ul li {
+  list-style-type: none;
+  margin: 0 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: blueviolet;
 }

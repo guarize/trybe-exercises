@@ -54,8 +54,6 @@ class Pokedex extends React.Component {
     const noDuplicates = [...new Set(pokemons.map((poke) => poke.type))];
 
     return (
-      <>
-        <h1>Pokedex</h1>
         <div className="pokedex">
           <div className="pokedex-container">
             <div className="elements-container">
@@ -84,7 +82,6 @@ class Pokedex extends React.Component {
             </button>
           </div>
         </div>
-      </>
     );
   }
 }

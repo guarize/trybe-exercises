@@ -1,6 +1,6 @@
 import React from 'react';
 import Pokemon from './Pokemon';
-import { Redirect } from 'react-router-dom';
+import { Redirect} from 'react-router-dom';
 
 class PokemonDetail extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class PokemonDetail extends React.Component {
     return !pokemon ? (
       <Redirect to="/" />
     ) : (
-      <div className="App">
+      <div>
         <Pokemon pokemon={pokemon} />
         <div className="summary">
           <h3>Summary</h3>

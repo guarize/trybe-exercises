@@ -4,16 +4,20 @@ import Pokedex from './components/Pokedex.jsx';
 import pokemons from './data';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import PokemonDetail from './components/PokemonDetail';
+import NavBar from './components/NavBar';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <BrowserRouter>
+          <NavBar />
           <Switch>
             <Route
               path="/pokemons/:id"
-              render={(props) => <PokemonDetail {...props} pokemons={pokemons} />}
+              render={(props) => (
+                <PokemonDetail {...props} pokemons={pokemons} />
+              )}
             />
             <Route path="/" render={() => <Pokedex pokemons={pokemons} />} />
           </Switch>

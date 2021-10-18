@@ -13,6 +13,7 @@ class PokemonDetail extends React.Component {
       <Redirect to="/" />
     ) : (
       <div>
+        <input style={{marginBottom: "30px"}} type="checkbox" />Favorite
         <Pokemon pokemon={pokemon} />
         <div className="summary">
           <h3>Summary</h3>

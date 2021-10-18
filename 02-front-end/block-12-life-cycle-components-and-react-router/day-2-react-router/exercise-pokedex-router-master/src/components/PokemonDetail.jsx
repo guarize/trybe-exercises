@@ -7,7 +7,7 @@ class PokemonDetail extends React.Component {
     const { id } = this.props.match.params;
     const { pokemons } = this.props;
     const pokemon = pokemons.find((poke) => poke.id === Number(id));
-    const { foundAt, summary } = pokemon;
+    const { foundAt, summary } = pokemon || {};
     console.log(foundAt);
     return !pokemon ? (
       <Redirect to="/" />

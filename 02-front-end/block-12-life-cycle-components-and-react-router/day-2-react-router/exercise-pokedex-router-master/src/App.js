@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.css';
+import Pokedex from './components/Pokedex.jsx';
 import pokemons from './data';
-import Pokedex from './Pokedex';
 
-function App() {
-  return (
-    <div className="App">
-      <h1> Pokedex </h1>
-      <Pokedex pokemons={pokemons} />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className='App'>
+        <h1>Pokedex</h1>
+        <div className='pokedex'>
+          <Pokedex pokemons={ pokemons } />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;

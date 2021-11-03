@@ -98,7 +98,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 13.2 - Project - Frontend Online Store
 
 ##### Block 14: [Automated testing with React Testing Library]()
-- [ ] 14.1 - RTL - First Steps
+- [x] 14.1 - RTL - First Steps
 - [ ] 14.2 - RTL - Mocks and Inputs
 - [ ] 14.3 - RTL - Testing React Router
 - [ ] 14.4 - Project - Testing in React

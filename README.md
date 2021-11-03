@@ -86,16 +86,16 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 ##### Block 11-B: [Stateful Components, Events and Forms with React]()
 - [x] 11-B.1 - Components with state and events
 - [x] 11-B.2 - Forms in React
-- [x] 11-B.3 - Project - Movie Cards Library Stateful
+- [x] 11-B.3 - Project - Tryunfo
 
 ##### Block 12: [Component Lifecycle and React Router]()
 - [x] 12.1 - Component life cycle
-- [ ] 12.2 - React Router
-- [ ] 12.3 - Project - Movie Cards Library CRUD
+- [x] 12.2 - React Router
+- [x] 12.3 - Project - TrybeTunes
 
 ##### Block 13: [Agile Methodologies]()
-- [ ] 13.1 - Agile Methodologies
-- [ ] 13.2 - Project - Frontend Online Store
+- [x] 13.1 - Agile Methodologies
+- [x] 13.2 - Project - Frontend Online Store
 
 ##### Block 14: [Automated testing with React Testing Library]()
 - [ ] 14.1 - RTL - First Steps

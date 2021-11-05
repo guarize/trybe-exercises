@@ -100,8 +100,8 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 ##### Block 14: [Automated testing with React Testing Library]()
 - [x] 14.1 - RTL - First Steps
 - [x] 14.2 - RTL - Mocks and Inputs
-- [ ] 14.3 - RTL - Testing React Router
-- [ ] 14.4 - Project - Testing in React
+- [x] 14.3 - RTL - Testing React Router
+- [x] 14.4 - Project - Testing in React
 
 ##### Block 15: [State Management with Redux]()
 - [ ] 15.1 - Introduction to Redux - The Overall State of the Application

@@ -1,0 +1,15 @@
+{
+  "name": "day-1-intro-to-redux-the-overall-state-of-the-app",
+  "version": "1.0.0",
+  "description": "<br />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.1.2"
+  }
+}

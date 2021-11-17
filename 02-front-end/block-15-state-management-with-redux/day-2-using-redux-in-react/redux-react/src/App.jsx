@@ -1,11 +1,17 @@
 import './App.css';
+import React from 'react';
+import FirstComponent from './FirstComponent';
+import SecondComponent from './SecondComponent';
 
-function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <FirstComponent />
+        {/* <SecondComponent /> */}
+      </div>
+    );
+  }
 }
 
 export default App;

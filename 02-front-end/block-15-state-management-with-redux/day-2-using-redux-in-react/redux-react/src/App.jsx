@@ -1,17 +1,14 @@
-import './App.css';
 import React from 'react';
-import FirstComponent from './FirstComponent';
-import SecondComponent from './SecondComponent';
+import InputsList from './InputsList';
+import List from './List';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <FirstComponent />
-        {/* <SecondComponent /> */}
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <InputsList />
+      <List />
+    </div>
+  );
 }
 
 export default App;

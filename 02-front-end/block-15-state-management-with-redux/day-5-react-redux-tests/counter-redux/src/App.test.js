@@ -29,20 +29,34 @@ describe('testing clicks', () => {
     const buttonAdicionar = queryByText('Add');
 
     expect(buttonAdicionar).toBeInTheDocument();
-    expect(queryByText('5')).toBeInTheDocument();
+    expect(queryByText(/5/)).toBeInTheDocument();
   });
 
-  test('the button should work', () => {
+  test('the add button should work', () => {
     const { queryByText } = renderWithRedux(<App />, {
       initialState: { clickReducer: { counter: 0 } },
     });
 
     const buttonAdicionar = queryByText('Add');
     expect(buttonAdicionar).toBeInTheDocument();
-    expect(queryByText('0')).toBeInTheDocument();
+    expect(queryByText(/0/)).toBeInTheDocument();
 
     userEvent.click(buttonAdicionar);
 
-    expect(queryByText('1')).toBeInTheDocument();
+    expect(queryByText(/1/)).toBeInTheDocument();
+  });
+
+  test('the sub button should work', () => {
+    const { queryByText } = renderWithRedux(<App />, {
+      initialState: { clickReducer: { counter: 1 } },
+    });
+
+    const buttonSubtrair = queryByText('Sub');
+    expect(buttonSubtrair).toBeInTheDocument();
+    expect(queryByText(/1/)).toBeInTheDocument();
+
+    userEvent.click(buttonSubtrair);
+
+    expect(queryByText(/0/)).toBeInTheDocument();
   });
 });

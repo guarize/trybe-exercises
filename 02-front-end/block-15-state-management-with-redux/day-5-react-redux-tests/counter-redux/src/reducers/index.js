@@ -9,6 +9,11 @@ const clickReducer = (state = INITIAL_STATE, action) => {
         ...state,
         counter: state.counter + 1,
       };
+    case 'SUB_CLICK':
+      return {
+        ...state,
+        counter: state.counter - 1,
+      };
     default:
       return state;
   }

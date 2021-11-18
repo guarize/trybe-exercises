@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import addClick from './actions';
+import { addClick, subClick } from './actions';
 import { connect } from 'react-redux';
 
 class ButtonClicks extends Component {
   render() {
     return (
-      <div>
+      <div className="button-container">
         <button onClick={this.props.add}>Add</button>
+        <button onClick={this.props.sub}>Sub</button>
       </div>
     );
   }
@@ -14,6 +15,7 @@ class ButtonClicks extends Component {
 
 const mapDispatchToProps = (dispatch) => ({
   add: () => dispatch(addClick()),
+  sub: () => dispatch(subClick()),
 });
 
 export default connect(null, mapDispatchToProps)(ButtonClicks);

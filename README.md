@@ -104,15 +104,15 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 14.4 - Project - Testing in React
 
 ##### Block 15: [State Management with Redux]()
-- [ ] 15.1 - Introduction to Redux - The Overall State of the Application
-- [ ] 15.2 - Using Redux in React
-- [ ] 15.3 - Using Redux in React - In Practice
-- [ ] 15.4 - Using Redux in React - Asynchronous Actions
-- [ ] 15.5 - Synchronous testing with React-Redux
-- [ ] 15.6 - Project - Data filter table
+- [x] 15.1 - Introduction to Redux - The Overall State of the Application
+- [x] 15.2 - Using Redux in React
+- [x] 15.3 - Using Redux in React - In Practice
+- [x] 15.4 - Using Redux in React - Asynchronous Actions
+- [x] 15.5 - Synchronous testing with React-Redux
+- [x] 15.6 - Project - TrybeWallet
 
 ##### Block 16: Project Trivia Game
-- [ ] 16.1 - Project Trivia Game
+- [x] 16.1 - Project Trivia Game
 
 ##### Block 17: [Context API and React Hooks]()
 - [ ] 17.1 - React Context API

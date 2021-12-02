@@ -115,7 +115,7 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 16.1 - Project Trivia Game
 
 ##### Block 17: [Context API and React Hooks]()
-- [ ] 17.1 - React Context API
+- [x] 17.1 - React Context API
 - [ ] 17.2 - React Hooks - useState and useContext
 - [ ] 17.3 - React Hooks - useEffect and custom Hooks
 - [ ] 17.4 - Project - StarWars Datatable with Context API and Hooks

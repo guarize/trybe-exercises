@@ -1,11 +1,42 @@
-import './App.css';
+import React, { Component } from 'react';
+import Home from './components/Home';
+import MyContext from './contexts/MyContext';
 
-function App() {
-  return (
-    <div>
-      <p>Hello World</p>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      name: '',
+    };
+
+    this.setName = this.setName.bind(this);
+  }
+
+  setName({ target: { name, value } }) {
+    this.setState({
+      [name]: value,
+    });
+  }
+
+  render() {
+    const {
+      state: { name },
+      setName,
+    } = this;
+
+    const contextValue = {
+      name,
+      setName,
+    };
+    return (
+      <MyContext.Provider value={contextValue}>
+        <div>
+          <Home />
+        </div>
+      </MyContext.Provider>
+    );
+  }
 }
 
 export default App;

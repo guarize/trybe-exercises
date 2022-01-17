@@ -68,42 +68,42 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 9.2 - JavaScript Promises
 - [x] 9.3 - Project - Shopping Cart
 
-##### Block 10: [Automated testing with Jest]() :heavy_check_mark:
+##### Block 10: [Automated testing with Jest](https://github.com/guarize/trybe-exercises/tree/master/01-fundamentals/block-10-automated-tests-with-jest) :heavy_check_mark:
 - [x] 10.1 - First Steps in Jest
 - [x] 10.2 - Jest - Asynchronous Testing
 - [x] 10.3 - Jest - Simulating behaviors
 - [x] 10.4 - Project - Asynchronous Jest and Mocking
 
-## Front-end Development :hourglass_flowing_sand:
+## Front-end Development :heavy_check_mark:
 
-##### Block 11-A: [Introduction to React]() :heavy_check_mark:
+##### Block 11-A: [Introduction to React](https://github.com/guarize/trybe-exercises/tree/master/02-front-end/block-11-A-introduction-to-react) :heavy_check_mark:
 - [x] 11-A.1 - Introduction - Front-end
 - [x] 11-A.1 - Introduction - React
 - [x] 11-A.1 - React's 'Hello, world!'!
 - [x] 11-A.2 - React Components
 - [x] 11-A.3 - Project - Movie Cards Library
 
-##### Block 11-B: [Stateful Components, Events and Forms with React]()
+##### Block 11-B: [Stateful Components, Events and Forms with React](https://github.com/guarize/trybe-exercises/tree/master/02-front-end/block-11-B-stateful-components-events-and-forms-with-react) :heavy_check_mark:
 - [x] 11-B.1 - Components with state and events
 - [x] 11-B.2 - Forms in React
 - [x] 11-B.3 - Project - Tryunfo
 
-##### Block 12: [Component Lifecycle and React Router]()
+##### Block 12: [Component Lifecycle and React Router](https://github.com/guarize/trybe-exercises/tree/master/02-front-end/block-12-life-cycle-components-and-react-router) :heavy_check_mark:
 - [x] 12.1 - Component life cycle
 - [x] 12.2 - React Router
 - [x] 12.3 - Project - TrybeTunes
 
-##### Block 13: [Agile Methodologies]()
+##### Block 13: Agile Methodologies :heavy_check_mark:
 - [x] 13.1 - Agile Methodologies
 - [x] 13.2 - Project - Frontend Online Store
 
-##### Block 14: [Automated testing with React Testing Library]()
+##### Block 14: [Automated testing with React Testing Library](https://github.com/guarize/trybe-exercises/tree/master/02-front-end/block-14-automated-testing-with-react-testing-library) :heavy_check_mark:
 - [x] 14.1 - RTL - First Steps
 - [x] 14.2 - RTL - Mocks and Inputs
 - [x] 14.3 - RTL - Testing React Router
 - [x] 14.4 - Project - Testing in React
 
-##### Block 15: [State Management with Redux]()
+##### Block 15: [State Management with Redux](https://github.com/guarize/trybe-exercises/tree/master/02-front-end/block-15-state-management-with-redux) :heavy_check_mark:
 - [x] 15.1 - Introduction to Redux - The Overall State of the Application
 - [x] 15.2 - Using Redux in React
 - [x] 15.3 - Using Redux in React - In Practice
@@ -111,16 +111,16 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 15.5 - Synchronous testing with React-Redux
 - [x] 15.6 - Project - TrybeWallet
 
-##### Block 16: Project Trivia Game
+##### Block 16: [Project Trivia Game](https://github.com/guarize/trivia-game-react) :heavy_check_mark:
 - [x] 16.1 - Project Trivia Game
 
-##### Block 17: [Context API and React Hooks]()
+##### Block 17: [Context API and React Hooks](https://github.com/guarize/trybe-exercises/tree/master/02-front-end/block-17-context-api-and-react-hooks) :heavy_check_mark:
 - [x] 17.1 - React Context API
 - [x] 17.2 - React Hooks - useState and useContext
 - [x] 17.3 - React Hooks - useEffect and custom Hooks
 - [x] 17.4 - Project - StarWars Datatable with Context API and Hooks
 
-##### Block 18: Project - Recipes App
+##### Block 18: [Project - Recipes App](https://github.com/guarize/recipes-app) :heavy_check_mark:
 - [x] 18.1 - Project - Recipes App
 
 ## Back-end Development :hourglass_flowing_sand:

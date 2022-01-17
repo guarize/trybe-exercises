@@ -2,14 +2,14 @@
 
 <br />
 
-### - How to configure and containerize your applications using Docker;
+### - Understand the concept of application packaging, as well as the concept of scaling;
 
-### - Study about relational database with MySQL and learn what tables are and how they relate;
+### - Understand what Docker is and what problem it is intended to solve;
 
-### - Learn how to build the back-end code, using both relational and non-relational databases, in Node.JS;
+### - Understand what a Docker / container process is;
 
-### - Learn how to program at a high level with JS, using a code powering mechanism called Typescript;
+### - Understand how to install the tool and run a container;
 
-### - Refine our way of programming by learning principles like SOLID and using object-oriented programming (OOP);
+### - Understand what are the main commands for using Docker in the command line interface (CLI);
 
-### - Finally, with these concepts, we will enter headfirst into the world of non-relational databases with MongoDB , learning how to use documents and collections;
+### - Run images from Docker Hub (official repository of Docker images).

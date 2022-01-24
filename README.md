@@ -125,8 +125,14 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 ## Back-end Development :hourglass_flowing_sand:
 
-##### Block 19: [Introduction to SQL]()
-- [ ] 19.1 - Introduction - Back-end
+##### Block 19: [Docker: Using Containers]() :heavy_check_mark:
+- [x] 19.1 - Introduction - Back-end
+- [x] 19.1 - Using Containers - Docker
+- [x] 19.2 - Image Manipulation and Creation in Docker
+- [x] 19.3 - Orchestrating Containers with Docker Compose
+- [x] 19.4 - Project - Docker Todo-List
+
+##### Block 20: [Introduction to SQL]()
 - [ ] 19.1 - Introduction - Relational databases
 - [ ] 19.1 - SQL database
 - [ ] 19.2 - Finding Data in a Database
@@ -134,114 +140,117 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [ ] 19.4 - Manipulating Tables
 - [ ] 19.5 - Project - All For One
 
-##### Block 20: [SQL Functions, Joins and Subqueries]()
-- [ ] 20.1 - Most commonly used functions in SQL
-- [ ] 20.2 - Unraveling JOINs and UNIONs
-- [ ] 20.3 - Stored Routines & Subqueries
-- [ ] 20.4 - Project - Vocabulary Booster
-
-##### Block 21: [Database Modeling and Normalization]()
-- [ ] 21.1 - Turning ideas into a database model
-- [ ] 21.2 - Normalization, Standard Shapes and Dumps
-- [ ] 21.3 - Turning ideas into a database model - Part 2
+##### Block 21: [SQL Functions, JOINs and Normalization]()
+- [ ] 21.1 - Most commonly used functions in SQL
+- [ ] 21.2 - Unraveling JOINs
+- [ ] 21.3 - Turning ideas into a database model
 - [ ] 21.4 - Project - One For All
 
-##### Block 22: [Introduction to MongoDB]()
-- [ ] 22.1 - Introduction - NoSQL
-- [ ] 22.1 - MongoDB - Introduction
-- [ ] 22.2 - Filter Operators
-- [ ] 22.3 - Project - Data Flights
+##### Block 22: [Introduction to Web Development with Node.js]()
+- [ ] 22.1 - Intro - Node.js
+- [ ] 22.1 - Node.js - A JavaScript Engine
+- [ ] 22.2 - Node.js - Fluxo Assíncrono
+- [ ] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com Node.js
+- [ ] 22.4 - Express - HTTP com Node.js
+- [ ] 22.5 - Express - Middlewares
+- [ ] 22.6 - Projeto - Talker Manager
 
-##### Block 23: [MongoDB: Simple and Complex Updates]()
-- [ ] 23.1 - Simple Updates
-- [ ] 23.2 - Complex Updates - Arrays - Part 1
-- [ ] 23.3 - Complex Updates - Arrays - Part 2
-- [ ] 23.4 - Project - Commerce
+##### Block 23: [Introduction to MongoDB]()
+- [ ] 23.1 - Introduction - NoSQL
+- [ ] 23.1 - MongoDB - Introduction
+- [ ] 23.2 - Filter Operators
+- [ ] 23.3 - Project - Data Flights
 
-##### Block 24: [MongoDB: Aggregation Framework]()
-- [ ] 24.1 - Aggregation Framework - Part 1
-- [ ] 24.2 - Aggregation Framework - Part 2
-- [ ] 24.3 - Project - Aggregations
+##### Block 24: [MongoDB: Simple and Complex Updates]()
+- [ ] 24.1 - Simple Updates
+- [ ] 24.2 - Complex Updates - Arrays - Part 1
+- [ ] 24.3 - Complex Updates - Arrays - Part 2
+- [ ] 24.4 - Project - Commerce
 
-##### Block 25: [Introduction to Web Development with NodeJS]()
-- [ ] 25.1 - Intro - NodeJS
-- [ ] 25.1 - NodeJS - Introduction
-- [ ] 25.2 - NodeJS - Asynchronous Flow
-- [ ] 25.3 - Testing with NodeJS
-- [ ] 25.4 - Express: HTTP with Node.js
-- [ ] 25.5 - Practicing Express
-- [ ] 25.6 - Project - Talker manager
+##### Block 25: [MongoDB: Aggregation Framework]()
+- [ ] 25.1 - Aggregation Framework - Part 1
+- [ ] 25.2 - Aggregation Framework - Part 2
+- [ ] 25.3 - Project - Aggregations
 
-##### Block 26: [NodeJS: Service Layer, Rest and Restful Architecture]()
-- [ ] 26.1 - Introduction - Software Architecture
-- [ ] 26.1 - Software Architecture - Model Layer
-- [ ] 26.2 - Software Architecture - Controller and Service Layer
-- [ ] 26.3 - Web Architecture - Rest and Restful
-- [ ] 26.4 - Software Architecture - Testing the Layers
-- [ ] 26.5 - Project - Store Manager
+##### Block 26: [Introduction to Web Development with NodeJS]()
+- [ ] 26.1 - Intro - NodeJS
+- [ ] 26.1 - NodeJS - Introduction
+- [ ] 26.2 - NodeJS - Asynchronous Flow
+- [ ] 26.3 - Testing with NodeJS
+- [ ] 26.4 - Express: HTTP with Node.js
+- [ ] 26.5 - Practicing Express
+- [ ] 26.6 - Project - Talker manager
 
-##### Block 27: [Authentication and File Upload]()
-- [ ] 27.1 - NodeJS - JWT - (JSON Web Token)
-- [ ] 27.2 - NodeJS - File Upload with Multer
-- [ ] 27.3 - NodeJS - Testing APIs with Integration Tests
-- [ ] 27.4 - Project - Cookmaster
+##### Block 27: [NodeJS: Service Layer, Rest and Restful Architecture]()
+- [ ] 27.1 - Introduction - Software Architecture
+- [ ] 27.1 - Software Architecture - Model Layer
+- [ ] 27.2 - Software Architecture - Controller and Service Layer
+- [ ] 27.3 - Web Architecture - Rest and Restful
+- [ ] 27.4 - Software Architecture - Testing the Layers
+- [ ] 27.5 - Project - Store Manager
 
-##### Block 28: [Deployment]()
-- [ ] 28.1 - Introduction - Deploy
-- [ ] 28.1 - Infrastructure - Deploy with Heroku
-- [ ] 28.2 - Deploy - Process Managers
-- [ ] 28.3 - Project - Stranger Things
+##### Block 28: [Authentication and File Upload]()
+- [ ] 28.1 - NodeJS - JWT - (JSON Web Token)
+- [ ] 28.2 - NodeJS - File Upload with Multer
+- [ ] 28.3 - NodeJS - Testing APIs with Integration Tests
+- [ ] 28.4 - Project - Cookmaster
 
-##### Block 29: [Architecture: SOLID and ORM]()
-- [ ] 29.1 - Architecture - SOLID Principles
-- [ ] 29.2 - ORM - Application Database Interface
-- [ ] 29.3 - ORM - Associations
-- [ ] 29.4 - Good practices in test writing
-- [ ] 29.5 - Project - Blogs API
+##### Block 29: [Deployment]()
+- [ ] 29.1 - Introduction - Deploy
+- [ ] 29.1 - Infrastructure - Deploy with Heroku
+- [ ] 29.2 - Deploy - Process Managers
+- [ ] 29.3 - Project - Stranger Things
 
-##### Block 30: [Sockets]()
-- [ ] 30.1 - Sockets - TCP/UDP & NET
-- [ ] 30.2 - Sockets - Socket.io
-- [ ] 30.3 - Project - Webchat
+##### Block 30: [Architecture: SOLID and ORM]()
+- [ ] 31.1 - Architecture - SOLID Principles
+- [ ] 31.2 - ORM - Application Database Interface
+- [ ] 31.3 - ORM - Associations
+- [ ] 31.4 - Good practices in test writing
+- [ ] 31.5 - Project - Blogs API
 
-##### Block 31: [Project Trybeer II]()
-- [ ] 31.1 - Project - Trybeer v2
+##### Block 31: [Sockets]()
+- [ ] 31.1 - Sockets - TCP/UDP & NET
+- [ ] 31.2 - Sockets - Socket.io
+- [ ] 31.3 - Project - Webchat
+
+##### Block 32: [Project Trybeer II]()
+- [ ] 32.1 - Project - Trybeer v2
 
 ## Computer Science :hourglass_flowing_sand:
 
-##### Block 32: [Computer Architecture and Networking]()
+##### Block 33: [Computer Architecture and Networking]()
 - [ ] 32.1 - Introduction - Computer Science
 - [ ] 32.2 - Computer Architecture
 - [ ] 32.3 - Network Architecture
 - [ ] 32.4 - Computer networking, tools and security
 - [ ] 32.5 - Project - Exploring the Protocols
 
-##### Block 33: [Introduction to Python and Web Data Scraping]()
+##### Block 34: [Introduction to Python and Web Data Scraping]()
 - [ ] 33.1 - Learning Python
 - [ ] 33.2 - Data Input and Output
 - [ ] 33.3 - Data Scraping
 - [ ] 33.4 - Tests
 - [ ] 33.5 - Project - Tech news
 
-##### Block 34: [Object-Oriented Programming and Project Patterns]()
+##### Block 35: [Object-Oriented Programming and Project Patterns]()
 - [ ] 34.1 - Introduction to object-oriented programming
 - [ ] 34.2 - Inheritance, Composition, and Interfaces
 - [ ] 34.3 - Project Standards
 - [ ] 34.4 - Project - Stock Reports
 
-##### Block 35: [Algorithms and Data Structure]()
+##### Block 36: [Algorithms and Data Structure]()
 - [ ] 35.1 - Algorithm Complexity
 - [ ] 35.2 - Recursion and Problem-Solving Strategies
 - [ ] 35.3 - Sorting and searching algorithms
 - [ ] 35.4 - Project - Algorithms
 
-##### Block 36: [Data Structures: Hash and Set]()
+##### Block 37: [Data Structures: Hash and Set]()
 - [ ] 36.1 - Arrays
 - [ ] 36.2 - Hashmap and Dict
 - [ ] 36.3 - Set
 - [ ] 36.4 - Project - Restaurant Orders
 
-##### Block 37: [Data Structures: Stacks, Rows, and Lists]()
+##### Block 38: [Data Structures: Stacks, Rows, and Lists]()
 - [ ] 37.1 - Nodes and Linked Lists
 - [ ] 37.2 - Deck
 - [ ] 37.3 - Cells

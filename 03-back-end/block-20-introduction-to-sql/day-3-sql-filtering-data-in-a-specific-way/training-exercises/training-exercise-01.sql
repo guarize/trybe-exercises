@@ -5,6 +5,7 @@ FROM
   sakila.customer
 WHERE
   email = 'LEONARD.SCHOFIELD@sakilacustomer.org';
+
 -- 2
 SELECT
   first_name
@@ -16,6 +17,7 @@ WHERE
   AND first_name <> 'KENNETH'
 ORDER BY
   first_name;
+
 -- 3
 SELECT
   title,

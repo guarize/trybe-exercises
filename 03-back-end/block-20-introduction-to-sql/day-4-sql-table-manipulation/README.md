@@ -1,4 +1,4 @@
-## - SQL - Table Manipulation
+## SQL - Table Manipulation
 
 <hr />
 

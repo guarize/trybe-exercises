@@ -178,12 +178,14 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [ ] 22.5 - Express - Middlewares
 - [ ] 22.6 - Projeto - Talker Manager
 
-##### Block 23: [Introduction to MongoDB]()
+##### Block 23: [Node.js: Service Layer, Rest and Restful Architecture]()
 
-- [ ] 23.1 - Introduction - NoSQL
-- [ ] 23.1 - MongoDB - Introduction
-- [ ] 23.2 - Filter Operators
-- [ ] 23.3 - Project - Data Flights
+- [ ] 23.1 - Introduction - Software Architecture
+- [ ] 23.1 - Software Architecture - Model Layer
+- [ ] 23.2 - Software Architecture - Controller and Service Layer
+- [ ] 23.3 - Web Architecture - Rest and Restful
+- [ ] 23.4 - Software Architecture - Testing the Layers
+- [ ] 23.5 - Project - Store Manager
 
 ##### Block 24: [MongoDB: Simple and Complex Updates]()
 

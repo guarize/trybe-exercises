@@ -1,3 +1,6 @@
+-- Aggregation Functions - AVG, MIN, MAX, SUM, COUNT
+
+-- 1
 SELECT
   AVG(length) AS 'Média de Duração',
   MIN(length) AS 'Duração Mínima',

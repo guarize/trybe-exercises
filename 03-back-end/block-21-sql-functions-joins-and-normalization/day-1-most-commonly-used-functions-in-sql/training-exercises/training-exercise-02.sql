@@ -1,3 +1,5 @@
+-- Conditionals
+
 -- 1
 SELECT
   film_id,
@@ -9,6 +11,7 @@ SELECT
   ) AS 'Conheço o filme?'
 FROM
   sakila.film;
+
 -- 2
 SELECT
   title,

@@ -1,3 +1,5 @@
+-- GROUP BY and HAVING
+
 -- 1
 SELECT
   active,
@@ -6,6 +8,7 @@ FROM
   sakila.customer
 GROUP BY
   active;
+
 -- 2
 SELECT
   store_id,
@@ -16,6 +19,7 @@ FROM
 GROUP BY
   store_id,
   active;
+
 -- 3
 SELECT
   AVG(rental_duration) AS avg_rental_duration,
@@ -26,6 +30,7 @@ GROUP BY
   rating
 ORDER BY
   avg_rental_duration DESC;
+
 -- 4
 SELECT
   district,
@@ -36,6 +41,7 @@ GROUP BY
   district
 ORDER BY
   COUNT(*) DESC;
+
 -- 5
 SELECT
   rating,
@@ -49,6 +55,7 @@ HAVING
   AND 121.50
 ORDER BY
   avg_duration DESC;
+
 -- 6
 SELECT
   rating,

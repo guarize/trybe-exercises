@@ -164,9 +164,9 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 ##### Block 21: [SQL Functions, JOINs and Normalization]()
 
 - [x] 21.1 - Most commonly used functions in SQL
-- [ ] 21.2 - Unraveling JOINs
-- [ ] 21.3 - Turning ideas into a database model
-- [ ] 21.4 - Project - One For All
+- [x] 21.2 - Unraveling JOINs
+- [x] 21.3 - Turning ideas into a database model
+- [x] 21.4 - Project - One For All
 
 ##### Block 22: [Introduction to Web Development with Node.js]()
 

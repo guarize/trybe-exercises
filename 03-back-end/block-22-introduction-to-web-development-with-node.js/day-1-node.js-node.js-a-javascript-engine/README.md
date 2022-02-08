@@ -2,9 +2,9 @@
 
 <hr />
 
-### - Use the npm commands to create and manage packages and dependencies;
+### - Use npm commands to create and manage packages and dependencies;
 
-### - Use the node command to execute scripts;
+### - Use node command to execute scripts;
 
 ### - Use the system of modules Node.js;
 

@@ -1,5 +1,5 @@
 {
-  "name": "readFileSync",
+  "name": "read-file-sync",
   "version": "1.0.0",
   "description": "",
   "main": "fileSync.js",

@@ -1,8 +1,8 @@
-const { readFileSync } = require('fs');
+const fs = require('fs');
 
 const readTextFile = (file) => {
   try {
-    const response = readFileSync(file, 'utf8');
+    const response = fs.readFileSync(file, 'utf8');
     return response;
   } catch (error) {
     console.error(error.message);

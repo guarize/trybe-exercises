@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./passing-grade/index.js",
-    "test": "mocha ./passing-grade/tests"
+    "start": "node index.js",
+    "test": "mocha tests"
   },
   "keywords": [],
   "author": "",

@@ -170,13 +170,13 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 ##### Block 22: [Introduction to Web Development with Node.js]()
 
-- [ ] 22.1 - Intro - Node.js
-- [ ] 22.1 - Node.js - A JavaScript Engine
-- [ ] 22.2 - Node.js - Fluxo Assíncrono
-- [ ] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com Node.js
-- [ ] 22.4 - Express - HTTP com Node.js
-- [ ] 22.5 - Express - Middlewares
-- [ ] 22.6 - Projeto - Talker Manager
+- [x] 22.1 - Intro - Node.js
+- [x] 22.1 - Node.js - A JavaScript Engine
+- [x] 22.2 - Node.js - Asynchronous streaming
+- [x] 22.3 - Mocha, Chai and Sinon - Back-end testing with Node.js
+- [x] 22.4 - Express - HTTP with Node.js
+- [x] 22.5 - Express - Middlewares
+- [x] 22.6 - Project - Talker Manager
 
 ##### Block 23: [Node.js: Service Layer, Rest and Restful Architecture]()
 

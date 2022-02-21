@@ -1,0 +1,13 @@
+{
+  "name": "training-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "userModel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

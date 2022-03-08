@@ -161,14 +161,14 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 19.4 - Manipulating Tables
 - [x] 19.5 - Project - All For One
 
-##### Block 21: [SQL Functions, JOINs and Normalization]()
+##### Block 21: [SQL Functions, JOINs and Normalization]() :heavy_check_mark:
 
 - [x] 21.1 - Most commonly used functions in SQL
 - [x] 21.2 - Unraveling JOINs
 - [x] 21.3 - Turning ideas into a database model
 - [x] 21.4 - Project - One For All
 
-##### Block 22: [Introduction to Web Development with Node.js]()
+##### Block 22: [Introduction to Web Development with Node.js]() :heavy_check_mark:
 
 - [x] 22.1 - Intro - Node.js
 - [x] 22.1 - Node.js - A JavaScript Engine
@@ -178,21 +178,22 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 22.5 - Express - Middlewares
 - [x] 22.6 - Project - Talker Manager
 
-##### Block 23: [Node.js: Service Layer, Rest and Restful Architecture]()
+##### Block 23: [Node.js: Service Layer, Rest and Restful Architecture]() :heavy_check_mark:
 
-- [ ] 23.1 - Introduction - Software Architecture
-- [ ] 23.1 - Software Architecture - Model Layer
-- [ ] 23.2 - Software Architecture - Controller and Service Layer
-- [ ] 23.3 - Web Architecture - Rest and Restful
-- [ ] 23.4 - Software Architecture - Testing the Layers
-- [ ] 23.5 - Project - Store Manager
+- [x] 23.1 - Introduction - Software Architecture
+- [x] 23.1 - Software Architecture - Model Layer
+- [x] 23.2 - Software Architecture - Controller and Service Layer
+- [x] 23.3 - Web Architecture - Rest and Restful
+- [x] 23.4 - Software Architecture - Testing the Layers
+- [x] 23.5 - Project - Store Manager
 
-##### Block 24: [MongoDB: Simple and Complex Updates]()
+##### Block 24: [Node.js: ORM and Authentication]()
 
-- [ ] 24.1 - Simple Updates
-- [ ] 24.2 - Complex Updates - Arrays - Part 1
-- [ ] 24.3 - Complex Updates - Arrays - Part 2
-- [ ] 24.4 - Project - Commerce
+- [ ] 24.1 - ORM - Application Database Interface
+- [ ] 24.2 - ORM - Associations
+- [ ] 24.3 - JWT - (JSON Web Token)
+- [ ] 24.4 - Testing APIs with Integration Tests
+- [ ] 24.5 - Project - Blogs API
 
 ##### Block 25: [MongoDB: Aggregation Framework]()
 

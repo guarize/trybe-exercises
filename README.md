@@ -187,60 +187,55 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 23.4 - Software Architecture - Testing the Layers
 - [x] 23.5 - Project - Store Manager
 
-##### Block 24: [Node.js: ORM and Authentication]()
+##### Block 24: [Node.js: ORM and Authentication]() :heavy_check_mark:
 
-- [ ] 24.1 - ORM - Application Database Interface
-- [ ] 24.2 - ORM - Associations
-- [ ] 24.3 - JWT - (JSON Web Token)
-- [ ] 24.4 - Testing APIs with Integration Tests
-- [ ] 24.5 - Project - Blogs API
+- [x] 24.1 - ORM - Application Database Interface
+- [x] 24.2 - ORM - Associations
+- [x] 24.3 - JWT - (JSON Web Token)
+- [x] 24.4 - Testing APIs with Integration Tests
+- [x] 24.5 - Project - Blogs API
 
-##### Block 25: [MongoDB: Aggregation Framework]()
+##### Block 25: [Deployment]() :heavy_check_mark:
 
-- [ ] 25.1 - Aggregation Framework - Part 1
-- [ ] 25.2 - Aggregation Framework - Part 2
-- [ ] 25.3 - Project - Aggregations
+- [x] 25.1 - Introduction - Deploy
+- [x] 25.1 - Infrastructure - Deploy with Heroku
+- [x] 25.2 - Deploy Docker & Heroku
+- [x] 25.3 - Project - Stranger Things
 
-##### Block 26: [Introduction to Web Development with NodeJS]()
+##### Block 26: [Typescript]() :heavy_check_mark:
 
-- [ ] 26.1 - Intro - NodeJS
-- [ ] 26.1 - NodeJS - Introduction
-- [ ] 26.2 - NodeJS - Asynchronous Flow
-- [ ] 26.3 - Testing with NodeJS
-- [ ] 26.4 - Express: HTTP with Node.js
-- [ ] 26.5 - Practicing Express
-- [ ] 26.6 - Project - Talker manager
+- [x] 26.1 - Introduction - TypeScript
+- [x] 26.2 - Static Typesetting and Generics
+- [x] 26.3 - Express with TypeScript
+- [x] 26.4 - Project - Trybe Smith
 
-##### Block 27: [NodeJS: Service Layer, Rest and Restful Architecture]()
+##### Block 27: [OOP and SOLID]()
 
-- [ ] 27.1 - Introduction - Software Architecture
-- [ ] 27.1 - Software Architecture - Model Layer
-- [ ] 27.2 - Software Architecture - Controller and Service Layer
-- [ ] 27.3 - Web Architecture - Rest and Restful
-- [ ] 27.4 - Software Architecture - Testing the Layers
-- [ ] 27.5 - Project - Store Manager
+- [x] 27.1 - Introduction to Object Orientation
+- [x] 27.2 - Inheritance and Interfaces
+- [x] 27.3 - Polymorphism
+- [x] 27.4 - SOLID - Introduction and Principles S, O and D
+- [x] 27.5 - SOLID - Principles L & I
+- [ ] 27.6 - Project - Trybers and Dragons
 
-##### Block 28: [Authentication and File Upload]()
+##### Block 29: [Project - TFC - Trybe Futebol Clube]()
 
-- [ ] 28.1 - NodeJS - JWT - (JSON Web Token)
-- [ ] 28.2 - NodeJS - File Upload with Multer
-- [ ] 28.3 - NodeJS - Testing APIs with Integration Tests
-- [ ] 28.4 - Project - Cookmaster
+- [ ] 28.1 - Project - TFC - Trybe Futebol Clube
 
-##### Block 29: [Deployment]()
+##### Block 29: [Introduction to MongoDB]()
 
-- [ ] 29.1 - Introduction - Deploy
-- [ ] 29.1 - Infrastructure - Deploy with Heroku
-- [ ] 29.2 - Deploy - Process Managers
-- [ ] 29.3 - Project - Stranger Things
+- [ ] 29.1 - Introduction - NoSQL
+- [ ] 29.1 - MongoDB - Introduction
+- [ ] 29.2 - Filter Operators
+- [ ] 29.3 - Simple Updates
+- [ ] 29.4 - Complex Updates - Arrays
+- [ ] 29.5 - Project - Commerce
 
-##### Block 30: [Architecture: SOLID and ORM]()
+##### Block 30: [MongoDB with Node.js and OOP]()
 
-- [ ] 31.1 - Architecture - SOLID Principles
-- [ ] 31.2 - ORM - Application Database Interface
-- [ ] 31.3 - ORM - Associations
-- [ ] 31.4 - Good practices in test writing
-- [ ] 31.5 - Project - Blogs API
+- [ ] 31.1 - MongoDB and MSC Architecture
+- [ ] 31.2 - MongoDB and OOP
+- [ ] 31.3 - Project - Car Shop
 
 ##### Block 31: [Sockets]()
 

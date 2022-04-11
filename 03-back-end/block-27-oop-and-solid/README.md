@@ -1,6 +1,6 @@
 ## OOP and SOLID
 
-<hr />
+---
 
 ### - Define Object-Oriented Programming as a programming paradigm that is the basis for numerous software architectures
 

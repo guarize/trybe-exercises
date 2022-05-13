@@ -220,15 +220,15 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 
 ##### Block 29: [Project - TFC - Trybe Futebol Clube]()
 
-- [ ] 28.1 - Project - TFC - Trybe Futebol Clube
+- [x] 28.1 - Project - TFC - Trybe Futebol Clube
 
 ##### Block 29: [Introduction to MongoDB]()
 
-- [ ] 29.1 - Introduction - NoSQL
-- [ ] 29.1 - MongoDB - Introduction
-- [ ] 29.2 - Filter Operators
-- [ ] 29.3 - Simple Updates
-- [ ] 29.4 - Complex Updates - Arrays
+- [x] 29.1 - Introduction - NoSQL
+- [x] 29.1 - MongoDB - Introduction
+- [x] 29.2 - Filter Operators
+- [x] 29.3 - Simple Updates
+- [x] 29.4 - Complex Updates - Arrays
 - [ ] 29.5 - Project - Commerce
 
 ##### Block 30: [MongoDB with Node.js and OOP]()

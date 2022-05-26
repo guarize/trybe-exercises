@@ -209,27 +209,27 @@ Contains all the activities developed by [Pedro Guarize Montenegro](https://www.
 - [x] 26.3 - Express with TypeScript
 - [x] 26.4 - Project - Trybe Smith
 
-##### Block 27: [OOP and SOLID]()
+##### Block 27: [OOP and SOLID]() :heavy_check_mark:
 
 - [x] 27.1 - Introduction to Object Orientation
 - [x] 27.2 - Inheritance and Interfaces
 - [x] 27.3 - Polymorphism
 - [x] 27.4 - SOLID - Introduction and Principles S, O and D
 - [x] 27.5 - SOLID - Principles L & I
-- [ ] 27.6 - Project - Trybers and Dragons
+- [x] 27.6 - Project - Trybers and Dragons
 
-##### Block 29: [Project - TFC - Trybe Futebol Clube]()
+##### Block 29: [Project - TFC - Trybe Futebol Clube]() :heavy_check_mark:
 
 - [x] 28.1 - Project - TFC - Trybe Futebol Clube
 
-##### Block 29: [Introduction to MongoDB]()
+##### Block 29: [Introduction to MongoDB]() :heavy_check_mark:
 
 - [x] 29.1 - Introduction - NoSQL
 - [x] 29.1 - MongoDB - Introduction
 - [x] 29.2 - Filter Operators
 - [x] 29.3 - Simple Updates
 - [x] 29.4 - Complex Updates - Arrays
-- [ ] 29.5 - Project - Commerce
+- [x] 29.5 - Project - Commerce
 
 ##### Block 30: [MongoDB with Node.js and OOP]()
 
